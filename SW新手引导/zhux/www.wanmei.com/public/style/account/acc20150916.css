@@ -1,0 +1,34 @@
+.WM_LoginBox {
+	position: fixed;
+	z-index: 999999;
+	left: 50%;
+	top: 50%;
+	width: 624px;
+	height: 364px;
+	margin: -223px 0 0 -312px;
+	border: 1px solid #979797;
+	background-color: #fff;
+	-webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+.WM_LoginBox iframe {
+	height: 314px; width: 100%; background: none; border: none;
+	clear: both; overflow: hidden; 
+}
+.WM_LoginBox .closebox{
+	height: 50px;
+	border-top: 3px solid #dc4949;
+	background: url(http://static.wanmei.com/sso/basic/images/c_line.png) no-repeat 572px 0;
+}
+.WM_LoginBox .closebox span{
+	float: right;
+	width: 46px;
+	height: 20px;
+	cursor: pointer;
+	background: url(http://static.wanmei.com/sso/basic/images/closebox.png) no-repeat center center;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+.WM_LoginBox .closebox span:hover{
+	background: url(//static.wanmei.com/sso/basic/images/closebox_hover.png) #dc4949 no-repeat center center;
+}

@@ -1,0 +1,308 @@
+/* public */
+html,body,form,ol,ul,li,div,p,dl,dt,dd,h1,h2,h3,h4,h5,h6,table,th,td,font,em,ins,span,a{margin:0; padding:0;}
+h1,h2,h3,h4,h5,h6,button,input,select,textarea{font-size:100%;font-weight:normal}
+html{_filter:expression(document.execCommand("BackgroundImageCache",false,true));}
+ul,li,div,dl,dt,dd{list-style:none;}
+h1.wm-public{height:0px; line-height:0px; font-size:0px;}
+a{text-decoration:none;}
+a{blr:expression(this.onFocus=this.blur());outline:none;}
+a:hover{text-decoration:underline;}
+img{border:0;}
+font,em{font-style:normal; font-family:\5b8b\4f53;}
+label{vertical-align:middle; font-family:tahoma;}
+textarea,input{resize:none; outline:none;}
+textarea{overflow:auto;}
+ins{float:right; text-decoration:none; font-weight:normal;}
+.pub_wsp{word-wrap:break-word; word-break:break-all;}
+.pub_abso{vertical-align:middle;}
+.pub_clr{clear:both;font-size:0;height:0;line-height:0;overflow:hidden;}
+.pub_yh{font-family:"Microsoft YaHei";}
+.none{display:none;}
+body{background:none; font-size:12px; font-family:Verdana,Geneva,sans-serif,\5b8b\4f53;}
+#header{width:1002px;}
+#content{min-width:1002px;width:100%;width:expression((documentElement.clientWidth < 1002) ? "1002px" : "100%" ); background:#000;}
+
+#topbox{background:url(topbg.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/topbg.jpg*/ no-repeat 0 0; height:101px;}
+
+#wrap{position:relative;}
+#left{width:212px; position:absolute; left:0; top:0; z-index:2;}
+#left a{display:block; width:212px; height:77px;}
+#left a.le1{background:url(1.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/1.jpg*/ no-repeat 0 0;}
+#left a.le2{background:url(2.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/2.jpg*/ no-repeat 0 0;}
+#left a.le3{background:url(3.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/3.jpg*/ no-repeat 0 0;}
+#left a.le4{background:url(4.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/4.jpg*/ no-repeat 0 0;}
+#left a.le5{background:url(5.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/5.jpg*/ no-repeat 0 0;}
+#left a.le6{background:url(6.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/6.jpg*/ no-repeat 0 0;}
+#left a.le7{background:url(7.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/7.jpg*/ no-repeat 0 0;}
+#left a.le8{background:url(8.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/8.jpg*/ no-repeat 0 0;}
+#left a.le9{background:url(9.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/9.jpg*/ no-repeat 0 0;}
+#left a:hover,#left a.hover{background-position:-212px 0;}
+
+/* header */
+#header{position:relative; height:101px;}
+#header img{display:block;}
+.headlogo{width:170px; height:101px; position:absolute; left:20px; top:0; overflow:hidden;}
+.headnav{width:752px; height:40px; position:absolute; right:0; top:43px;}
+.headnav a{float:left; width:80px; height:36px; display:inline; margin-right:57px; overflow:hidden; text-indent:-9999px; background:url(navhov.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/navhov.jpg*/; filter:Alpha(Opacity=0);opacity:0}
+.headnav a.n1{background-position:0 0;}
+.headnav a.n2{background-position:-137px 0;}
+.headnav a.n3{background-position:-274px 0;}
+.headnav a.n4{background-position:-411px 0;}
+
+.bg1_1{background:url(bg1_01.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/bg1_01.jpg*/ no-repeat 212px 0;}
+.bg1_2{background:url(bg1_02.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/bg1_02.jpg*/ no-repeat 212px 377px; height:753px;}
+
+.bg3_0{background:url(bg30.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/bg30.jpg*/ no-repeat 212px 0; height:897px;}
+.bg3_1{background:url(bg31.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/bg31.jpg*/ no-repeat 212px 0; height:897px;}
+.bg3_2{background:url(bg32.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/bg32.jpg*/ no-repeat 212px 0; height:897px;}
+.bg3_3{background:url(bg33.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/bg33.jpg*/ no-repeat 212px 0; height:897px;}
+
+.bg4_1{background:url(bg4_01.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/bg4_01.jpg*/ no-repeat 212px 0;}
+.bg4_2{background:url(bg4_02.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/bg4_02.jpg*/ no-repeat 212px 387px; height:773px;}
+
+.bg5_1{background:url(bg5_01.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/bg5_01.jpg*/ no-repeat 212px 0;}
+.bg5_2{background:url(bg5_02.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/bg5_02.jpg*/ no-repeat 212px 387px; height:773px;}
+
+.bg6_1{background:url(bg6_01.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/bg6_01.jpg*/ no-repeat 212px 0;}
+.bg6_2{background:url(bg6_02.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/bg6_02.jpg*/ no-repeat 212px 387px; height:773px;}
+
+.bg7_1{background:url(bg7_01.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/bg7_01.jpg*/ no-repeat 212px 0;}
+.bg7_2{background:url(bg7_02.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/bg7_02.jpg*/ no-repeat 212px 524px;}
+.bg7_3{background:url(bg7_03.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/bg7_03.jpg*/ no-repeat 212px 1047px;}
+.bg7_4{background:url(bg7_04.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/bg7_04.jpg*/ no-repeat 212px 1571px; height:2094px; position:relative;}
+
+.bg8_1{background:url(bg8_01.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/bg8_01.jpg*/ no-repeat 212px 0;}
+.bg8_2{background:url(bg8_02.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/bg8_02.jpg*/ no-repeat 212px 387px; height:773px;}
+
+.bg9_1{background:url(bg9_01.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/bg9_01.jpg*/ no-repeat 212px 0;}
+.bg9_2{background:url(bg9_02.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/bg9_02.jpg*/ no-repeat 212px 651px; height:1300px;}
+
+/* main */
+#main{background:#FFF url(leftbg-1.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/leftbg.jpg*/ repeat-y 0 0;}
+#mainbox{width:1002px;}
+.pubex{padding:0 0 0 263px;}
+.pubex1{padding:0 0 0 212px;}
+.st_title{padding:24px 0 0 0; height:98px;}
+.st_video{height:418px; padding:8px 0 0 14px;}
+.st_piclist{width:698px; overflow:hidden;}
+.st_piclist ul{width:720px; height:361px;}
+.st_piclist li{height:177px; width:720px;}
+.st_piclist img{float:left; width:166px; height:167px; display:inline; margin-right:11px;}
+.st_page{height:28px; line-height:28px; text-align:center;}
+.st_page,.st_page a{color:#392f79;}
+.st_page a,.st_page span{padding:0 6px;}
+.st_page span.qp_pagenumber{font-weight:bold;}
+.st_page{filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#33312D50', endColorstr='#33312D50');background:rgba(49,45,80,0.2);}
+:root .st_page{filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#00312D50', endColorstr='#00312D50');}/*for IE9*/
+
+.st_uwp{display:none;}
+.musiclist{width:698px; height:361px; color:#000;}
+.musiclist table{border-collapse:collapse;}
+.musiclist th,.musiclist td{text-align:center; line-height:32px;}
+.musiclist div.pub_mus{width:46px; height:20px; cursor:pointer;}
+.musiclist div.play{background:url(icon_play-1.gif)/*tpa=http://zhuxian.wanmei.com/features/images/icon_play.gif*/ no-repeat center center; width:46px; height:20px; cursor:pointer;}
+.musiclist div.pause{background:url(icon_stop-1.gif)/*tpa=http://zhuxian.wanmei.com/features/images/icon_stop.gif*/ no-repeat center center; width:46px; height:20px; cursor:pointer;}
+.musiclist div.mus_xz{background:url(icon_down-1.gif)/*tpa=http://zhuxian.wanmei.com/features/images/icon_down.gif*/ no-repeat center center;}
+.musiclist div.mus_xz a{display:block; width:46px; height:20px; background:url(about:blank);}
+.musiclist div.mus_fx{background:url(icon_share2-1.gif)/*tpa=http://zhuxian.wanmei.com/features/images/icon_share2.gif*/ no-repeat center center; position:relative;}
+.muspop{width:60px; height:30px; background:#fff url(sharebox.gif)/*tpa=http://zhuxian.wanmei.com/images/temp131008/sharebox.gif*/ no-repeat center center; border:1px solid #d8d8d8; position:absolute; left:-5px; top:0px; display:none;}
+.muspop a{display:block; width:30px; height:30px; background:url(about:blank); float:left;}
+
+.musiclist th{filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#33312D50', endColorstr='#33312D50');background:rgba(49,45,80,0.2);}
+:root .musiclist th{filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#00312D50', endColorstr='#00312D50');}/*for IE9*/
+
+
+.st_tab{padding:0 0 0 112px; height:55px;}
+.st_tab a{float:left; width:97px; height:55px; display:inline; margin-right:37px;}
+.st_tab a.tab1{background:url(tab1.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/tab1.jpg*/ no-repeat 0 0;}
+.st_tab a.tab2{background:url(tab2.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/tab2.jpg*/ no-repeat 0 0;}
+.st_tab a.tab3{background:url(tab3.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/tab3.jpg*/ no-repeat 0 0;}
+.st_tab a.tab4{background:url(tab4.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/tab4.jpg*/ no-repeat 0 0;}
+.st_tab a:hover,.st_tab a.hover{background-position:0 -55px;}
+
+.fs_box{padding:122px 0 0 0;}
+.fs_box h3{height:30px; padding:0 0 0 165px;}
+.fs_box li{font-size:14px; line-height:24px; color:#613412; width:530px;}
+.fs_box li.li1{height:175px;}
+.fs_box li.li2{height:44px;}
+.fs_box li.li_video{height:198px; padding:2px 0 0 4px;}
+.fs_box li.li3{height:388px;}
+
+.video_pop{background:#000; width:640px; height:480px; position:relative; display:none;}
+.close_btn{position:absolute; right:-58px; top:0px; width:58px; height:58px; cursor:pointer;}
+
+#li_video{width:170px; height:110px; position:relative;}
+#videoshow{width:170px; height:110px; background:url(about:blank); cursor:pointer; display:block; position:absolute; left:0; top:0; z-index:2;}
+.videoplay_small{width:170px; height:110px; position:absolute; left:0; top:0; z-index:1;}
+
+.sz_box{padding:153px 0 0 0; width:670px;}
+.sz_box p{line-height:24px; font-size:14px; color:#591127;}
+.sz_box h3{padding:0 0 0 250px;}
+.sz_box a.more1{float:right;}
+
+.fb_box{color:#cbc2c1; line-height:24px;}
+.fb_box p{text-indent:2em; padding-bottom:20px; font-size:14px;}
+.fb_box li{width:410px;}
+.fb_box li.fb1{padding:235px 0 0 0; height:412px;}
+.fb_box li.fb2{height:408px;}
+.fb_box li.fb3{height:408px;}
+.fb_box li.fb4{height:412px;}
+.fb_box li.fb5{height:160px;}
+
+.fabao_box{padding:123px 0 0 0; width:550px;}
+.fabao_box h3{padding:0 0 0 218px; height:30px;}
+.fabao_box p{color:#c3c1cb; font-size:14px; line-height:24px;}
+
+.zc_box{padding:123px 0 0 51px; width:600px; height:100px;}
+.zc_box h3{height:30px;}
+.zc_box p{color:#145714; font-size:14px; line-height:24px;}
+
+.zc_list{height:511px; position:relative;}
+.zc_list a{position:absolute; display:block; filter:Alpha(Opacity=0);opacity:0; cursor:default;}
+.zc_list a.list1{width:245px; height:446px; left:0; top:0;}
+.zc_list a.list2{width:308px; height:511px; left:245px; top:0;}
+.zc_list a.list3{width:265px; height:422px; left:526px; top:0;}
+
+.kf_box{padding:123px 0 0 0; width:550px;}
+.kf_box h3{padding:0 0 0 338px; height:30px;}
+.kf_box p{color:#c3c1cb; font-size:14px; line-height:24px;}
+
+#bp_btn{height:203px; overflow:hidden; width:212px;}
+#bp_btn a{width:212px; height:50px; float:left; display:inline; margin-bottom:1px;}
+#bp_btn a.bp1{background:url(b1.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/b1.jpg*/ no-repeat 0 0;}
+#bp_btn a.bp2{background:url(b2.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/b2.jpg*/ no-repeat 0 0;}
+#bp_btn a.bp3{background:url(b3.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/b3.jpg*/ no-repeat 0 0;}
+#bp_btn a.bp4{background:url(b4.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/b4.jpg*/ no-repeat 0 0;}
+#bp_btn a.hover,#bp_btn a:hover{background-position:-212px 0;}
+
+.bp_box{padding:162px 0 0 0; width:700px;}
+.bp_box h3{padding:0 0 0 250px; height:450px;}
+.bp_box p{font-size:14px; line-height:24px;}
+.bp_tab1 p{color:#998fc1;}
+.bp_tab2 h3{padding:0 0 0 296px;}
+.bp_tab2 p{color:#af7575;}
+.bp_tab3 h3{padding:0 0 0 325px;}
+.bp_tab3 p{color:#af9975;}
+.bp_tab4 h3{padding:0 0 0 350px;}
+.bp_tab4 p{color:#759aaf;}
+
+#zybtn{width:212px; height:152px; overflow:hidden;}
+#zybtn a{float:left; width:212px; height:50px; display:inline; margin-bottom:1px;}
+#zybtn a.zy1{background:url(zybtn1.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/zybtn1.jpg*/ no-repeat 0 0;}
+#zybtn a.zy2{background:url(zybtn2.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/zybtn2.jpg*/ no-repeat 0 0;}
+#zybtn a.zy3{background:url(zybtn3.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/zybtn3.jpg*/ no-repeat 0 0;}
+#zybtn a:hover,#zybtn a.hover{background-position:-212px 0;}
+
+.renbox{position:absolute; width:53px; height:846px; left:212px; top:0; background:#201e2e;}
+.renbg{background:url(re_tab1.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/re_tab1.jpg*/ no-repeat 0 0; width:53px; height:846px;}
+.shenbg{background:url(re_tab2.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/re_tab2.jpg*/ no-repeat 0 0; width:53px; height:846px;}
+.tmbg{background:url(re_tab3.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/re_tab3.jpg*/ no-repeat 0 0; width:53px; height:846px;}
+
+.rentab{padding:21px 0 0 0;}
+.tmlist{padding:124px 0 0 0;}
+
+.rentab p{height:78px;}
+.rentab a{width:53px; height:65px; display:block;}
+.rentab a.zy_ren1{background:url(rt1.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/rt1.jpg*/ no-repeat 0 -100px;}
+.rentab a.zy_ren2{background:url(rt2.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/rt2.jpg*/ no-repeat 0 -100px;}
+.rentab a.zy_ren3{background:url(rt3.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/rt3.jpg*/ no-repeat 0 -100px;}
+.rentab a.zy_ren4{background:url(rt4.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/rt4.jpg*/ no-repeat 0 -100px;}
+.rentab a.zy_ren5{background:url(rt5.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/rt5.jpg*/ no-repeat 0 -100px;}
+.rentab a.zy_ren6{background:url(rt6.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/rt6.jpg*/ no-repeat 0 -100px;}
+
+.rentab a.zy_shen1{background:url(st1.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/st1.jpg*/ no-repeat 0 -100px;}
+.rentab a.zy_shen2{background:url(st2.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/st2.jpg*/ no-repeat 0 -100px;}
+.rentab a.zy_shen3{background:url(st3.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/st3.jpg*/ no-repeat 0 -100px;}
+.rentab a.zy_shen4{background:url(st4.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/st4.jpg*/ no-repeat 0 -100px;}
+.rentab a.zy_shen5{background:url(st5.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/st5.jpg*/ no-repeat 0 -100px;}
+.rentab a.zy_shen6{background:url(st6.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/st6.jpg*/ no-repeat 0 -100px;}
+
+.rentab a.zy_tm1{background:url(tm1.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/tm1.jpg*/ no-repeat 0 -100px;}
+.rentab a.zy_tm2{background:url(tm2.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/tm2.jpg*/ no-repeat 0 -100px;}
+.rentab a.zy_tm3{background:url(tm3.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/tm3.jpg*/ no-repeat 0 -100px;}
+.rentab a.zy_tm4{background:url(tm4.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/tm4.jpg*/ no-repeat 0 -100px;}
+.rentab a.zy_tm5{background:url(tm5.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/tm5.jpg*/ no-repeat 0 -100px;}
+
+.rentab a.hover,.rentab a:hover{background-position:0 0;}
+
+.pubg2{height:846px;}
+.bg2_0{background:url(zy0.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/zy0.jpg*/ no-repeat 212px 0;}
+.bg2_1{background:url(zy1.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/zy1.jpg*/ no-repeat 212px 0;}
+.bg2_2{background:url(zy2.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/zy2.jpg*/ no-repeat 212px 0;}
+.bg2_3{background:url(zy3.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/zy3.jpg*/ no-repeat 212px 0;}
+.bg2_4{background:url(zy4.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/zy4.jpg*/ no-repeat 212px 0;}
+.bg2_5{background:url(zy5.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/zy5.jpg*/ no-repeat 212px 0;}
+
+.bg2_6{background:url(zy6.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/zy6.jpg*/ no-repeat 212px 0;}
+.bg2_7{background:url(zy7.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/zy7.jpg*/ no-repeat 212px 0;}
+.bg2_8{background:url(zy8.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/zy8.jpg*/ no-repeat 212px 0;}
+.bg2_9{background:url(zy9.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/zy9.jpg*/ no-repeat 212px 0;}
+.bg2_10{background:url(zy10.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/zy10.jpg*/ no-repeat 212px 0;}
+.bg2_11{background:url(zy11.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/zy11.jpg*/ no-repeat 212px 0;}
+
+.bg2_12{background:url(zy12.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/zy12.jpg*/ no-repeat 212px 0;}
+.bg2_13{background:url(zy13.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/zy13.jpg*/ no-repeat 212px 0;}
+.bg2_14{background:url(zy_pojun.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/zy_pojun.jpg*/ no-repeat 212px 0;}
+.bg2_15{background:url(zy_qingluo.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/zy_qingluo.jpg*/ no-repeat 212px 0;}
+.bg2_16{background:url(zy_guiyun.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/zy_guiyun.jpg*/ no-repeat 212px 0;}
+
+.tmvideo{padding:630px 0 0 40px;}
+.tmppx{width:320px; height:180px; position:relative;}
+.tmppx div{width:320px; height:180px; position:absolute; left:0; top:0; z-index:1;}
+.tmppx a{display:block; width:320px; height:180px; background:url(about:blank); position:absolute; left:0; top:0; z-index:2;}
+
+
+
+.more,.more1,.more2,.more3,.more4,.more5,.more6,.more7,.more8,.more9{width:106px; height:25px; line-height:25px; text-align:center; color:#FFF; display:block; background:url(more.png)/*tpa=http://zhuxian.wanmei.com/features/images/more.png*/ no-repeat 0 0;}
+.more{background-position:0 0;}
+.more1{background-position:0 -25px;}
+.more2{background-position:0 -50px; color:#760007;}
+.more3{background-position:0 -75px;}
+.more4{background-position:0 -100px; float:right;}
+.more5{background-position:0 -125px; color:#1f2235;}
+.more6{background-position:0 -150px; color:#1f2235;}
+.more7{background-position:0 -175px; color:#201010;}
+.more8{background-position:0 -200px; color:#201010;}
+.more9{background-position:0 -225px; color:#201010;}
+
+.topbtn{background:url(top.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/top.jpg*/ no-repeat 0 0; width:45px; height:45px; position:absolute; left:980px; bottom:0; z-index:100}
+
+.regbox{background:url(popshow.jpg)/*tpa=http://zhuxian.wanmei.com/features/images/popshow.jpg*/ no-repeat 0 0; width:328px; height:604px;}
+.reghie{height:55px;}
+.regbtn{height:155px; padding:0 0 0 35px;}
+.libaobtn{background:url(about:blank); display:block; width:259px; height:55px;}
+.closebtn{float:right; width:22px; height:22px; background:url(about:blank); cursor:pointer;}
+.reglink{width:211px; height:35px; float:left; display:inline; margin-left:17px;}
+.reginp{height:316px; text-align:center;}
+.regweibo{padding:20px 0 0 5px;}
+.regweibo a{float:left; width:88px; height:58px; display:inline; margin-left:19px; background:url(about:blank);}
+
+.regdown{padding:0 0 0 32px;}
+.regdown a{float:left; height:42px; display:inline; margin-right:7px; background:url(about:blank);}
+.regdown a.downs1{width:108px;}
+.regdown a.downs2{width:157px;}
+
+#flart_regbar{ position:absolute; right:0; top:143px; width:328px; height:604px; overflow:hidden; display:none;}
+#regbox{position:absolute; height:604px; left:0; top:0; overflow:hidden;}
+.btn_bar{ display:none; position:absolute; top:130px; right:0px; cursor:pointer;}
+.cunone{cursor:default;}
+
+
+
+
+.showbg{width:100%; height:895px; position:absolute; left:0; top:0; z-index:19998; background:#000; opacity:.5;filter:alpha(opacity=50); display:none;}
+
+.showfirst{background:url(popbtn.jpg)/*tpa=http://zhuxian.wanmei.com/images/cover140118/popbtn.jpg*/ no-repeat 0 0; width:640px; height:310px; position:absolute; top:290px; display:none; z-index:19999; display:none;}
+.spantxt{position:absolute; display:block; width:227px; height:21px; line-height:21px; text-align:center; color:#000; font-weight:bold; left:248px; top:93px;}
+.ashowbs{width:160px; height:100px; position:absolute; right:28px; top:151px; background:url(about:blank);}
+
+.showsecond{position:absolute; right:46px; top:351px; width:230px; height:265px; background:#f5f7ff;  z-index:19999; display:none;}
+.showreg p{line-height:22px; text-align:center;}
+.showreg a{color:#cecece;}
+.showreg h3{height:20px; line-height:20px; padding:0 0 0 12px; clear:both;}
+.showreg label{float:left; width:64px;text-align:center;background:#000;color:#fff;margin-right:3px;opacity:.3;filter:alpha(opacity=30);}
+.showreg span{width:136px;height:20px; line-height:20px; padding:0 2px;background:#000;border:none;color:#fff !important; float:left;}
+.showreg iframe{position:absolute; left:0; top:31px;}
+.showpng{width:256px; height:111px; position:absolute; left:-270px; top:-50px; z-index:2; background:url(jiantou.png)/*tpa=http://event50.wanmei.com/zhuxian/201305/0508arrival/images2/jiantou.png*/ no-repeat; _background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://event50.wanmei.com/zhuxian/201209/0925arrival/images2/jiantou.png',sizingMethod='scale');}
+
+.wm-public{position:absolute !important; z-index:100 !important;}

@@ -1,0 +1,437 @@
+/*head开始*/
+#xs_head{
+    width: 1348px;
+    height: 704px;
+    background: url(../images/bg.jpg)no-repeat top center;
+
+    /*background-color: red;*/
+}
+#xs_head .xs_w{
+    position: relative;
+}
+#xs_head .zxlogo a{
+    width: 118px;
+    height: 117px;
+    position: absolute;
+    background: url(../images/logo.png) no-repeat;
+    text-indent: -2000px;
+    left: 14px;
+    top: 10px;
+
+}
+#xs_head .recom{
+    width: 429px;
+    height: 173px;
+    /*background-color: red;*/
+    position: absolute;
+    left: 0;
+    top: 410px;
+}
+#xs_head .recom .erweima{
+    width: 155px;
+    height: 168px;
+    background-color: #2AC2A7;
+    text-align: center;
+    padding-top: 5px;
+    float: left;
+
+}
+#xs_head .recom .erweima p{
+    color:#fff;
+    font-size: 13px;
+    margin-top: 5px;
+
+}
+#xs_head .recom .apple{
+    float: left;
+    margin-left: 13px;
+}
+#xs_head .recom .andro{
+    float: left;
+    margin-left: 13px;
+    margin-top: 8px;
+}
+
+/*head结束*/
+
+/*初见诛仙部分开始*/
+#firstsee{
+    height: 785px;
+    /*background-color: palegoldenrod;*/
+    text-align: center;
+    position: relative;
+    margin-bottom: 30px;
+
+
+}
+#firstsee .fscontent .free,
+#firstsee .fscontent .deep,
+#firstsee .fscontent .happy,
+#firstsee .fscontent .open,
+#firstsee .fscontent .classic{
+    width: 230px;
+    height: 350px;
+    position: absolute;
+}
+#firstsee .fscontent .classic{
+    left: 173px;
+    top: 90px;
+}
+#firstsee .fscontent .free{
+    left: 521px;
+    top: 90px;
+}
+#firstsee .fscontent .deep{
+    left: 33px;
+    top: 450px;
+}
+#firstsee .fscontent .happy{
+    left: 341px;
+    top: 450px;
+}
+#firstsee .fscontent .open{
+    left: 641px;
+    top: 450px;
+}
+#firstsee .hover{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: none;
+
+}
+
+#firstsee .hover p{
+    text-align: left;
+    line-height: 20px;
+}
+/*初见诛仙部分结束*/
+
+/*职业选择部分开始*/
+
+#roles{
+    height: 979px;
+    /*background-color: pink;*/
+    text-align: center;
+    position: relative;
+}
+#roles .rolesBtn .btns{
+    height: 45px;
+    width: 550px;
+    /*background-color: yellow;*/
+    position: absolute;
+    margin-left: 50%;
+    left: -275px;
+    top: 80px;
+    z-index: 1;
+
+}
+#roles .rolesBtn  a{
+    width: 124px;
+    height: 39px;
+    background: url("../images/tab_a.png") no-repeat;
+    display: inline-block;
+    font:16px/39px "微软雅黑";
+    color:#fff;
+}
+#roles .rolescontent{
+    height: 870px;
+    /*width: 1350px;*/
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+#roles .rolescontent .qingyun{
+    /*width: 1350px;*/
+    width: 100%;
+    height: 870px;
+    background: url("../images/role_qingyun.jpg")no-repeat center top;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+
+
+
+}
+#roles .rolescontent .tianyin{
+    /*width: 1350px;*/
+    width: 100%;
+    height: 870px;
+    background: url("../images/role_tianyin.jpg")no-repeat center top;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+
+}
+#roles .rolescontent .guiwang{
+    width: 100%;
+    /*width: 1350px;*/
+    height: 870px;
+    background: url("../images/role_guiwang.jpg")no-repeat center top;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+
+}
+#roles .rolescontent .hehuan{
+    width: 100%;
+    /*width: 1350px;*/
+    height: 870px;
+    background: url("../images/role_hehuan.jpg")no-repeat center top;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+
+
+}
+#roles .rolescontent .infor{
+    width: 430px;
+    height: 536px;
+    /*background-color: #cccccc;*/
+    position: absolute;
+    text-align: center;
+    right: 212px;
+    top: 290px;
+    text-align: left;
+
+}
+#roles .rolescontent .infor h3{
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 30px;
+    margin: 5px 0;
+}
+#roles .rolescontent .infor img{
+    margin-right: 5px;
+}
+#roles .rolescontent h3 img{
+    margin-right: 5px;
+}
+#roles .rolescontent .infor p{
+    line-height: 25px;
+    font-size: 14px;
+    margin-bottom: 30px;
+
+}
+#roles  .infor .spacer{
+    height: 1px;
+    width: 430px;
+    background-color: #2AC2A7;
+    margin: 5px 0;
+}
+#roles  .infor .pho{
+    padding-top: 10px;
+
+}
+#roles  .infor .pho p{
+    text-align: center;
+}
+#roles  .infor .pho div{
+    float: left;
+    margin-left: 15px;
+}
+#left a{
+    width: 27px;
+    height: 51px;
+    background: url(../images/left.png)no-repeat;
+    position: absolute;
+    left: 195px;
+    top: 39%;
+
+}
+#right a{
+    width: 27px;
+    height: 51px;
+    background: url(../images/right.png)no-repeat;
+    position: absolute;
+    right: 195px;
+    top: 39%;
+
+
+}
+/*职业选择部分结束*/
+
+/*道法飞涨开始*/
+.daofa{
+    height: 985px;
+    /*overflow: hidden;*/
+    /*background-color: palegoldenrod;*/
+    position: relative;
+}
+.daofa .btns{
+    margin-left: 113px;
+    margin-top: 20px;
+}
+.daofa .btns a{
+    width: 124px;
+    height: 39px;
+    background: url("../images/tab_a.png") no-repeat;
+    display: inline-block;
+    font:16px/39px "微软雅黑";
+    color:#fff;
+    text-align: center;
+}
+.daofa .imgs img{
+    width: 411px;
+    border: 2px solid #ccc;
+    margin-left: 7px;
+    /*margin-top: 20px;*/
+
+
+}
+.daofa .dafacontent{
+    width: 1000px;
+    height: 825px;
+    /*background-color: red;*/
+    position: relative;
+
+}
+.daofa .dafacontent .zhenling,
+.daofa .dafacontent .fabao,
+.daofa .dafacontent .lianqi,
+.daofa .dafacontent .shengji{
+    height: 825px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}
+.current{
+    display: block;
+}
+.daofa .spacer{
+    height: 1px;
+    width: 432px;
+    background-color: #2AC2A7;
+    margin: 10px 0;
+}
+.daofa .pub{
+    float: left;
+    /*width: 435px;*/
+    margin-right: 48px;
+    margin-top: 20px;
+}
+.daofa .pub h3{
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 30px;
+    margin: 5px 0;
+}
+.daofa .pub h3 img{
+    margin-right: 5px;
+}
+.daofa .pub .text{
+    height: 100px;
+    /*background-color: red;*/
+}
+.daofa .dafacontent .pub p{
+    line-height: 25px;
+    font-size: 14px;
+
+}
+.daofa .gameinfo a{
+    width: 168px;
+    height: 50px;
+    background: url(../images/info_btn.jpg)no-repeat;
+    position: absolute;
+    left: 50%;
+    margin-left: -84px;
+    bottom: 0;
+
+}
+/*道法飞涨结束*/
+
+/*获取金钱开始*/
+
+.getMoney{
+    height: 545px;
+    overflow: hidden;
+    /*background-color: pink;*/
+    position: relative;
+    margin-top: 50px;
+
+}
+.getMoney .tit4{
+    text-align: center;
+}
+.getMoney .rolesBtn{
+    text-align: center;
+    margin-top: 20px;
+}
+.getMoney .rolesBtn a{
+    width: 124px;
+    height: 39px;
+    background: url("../images/tab_a.png") no-repeat;
+    display: inline-block;
+    font:16px/39px "微软雅黑";
+    color:#fff;
+    text-align: center;
+
+}
+.getMoney .fulibox{
+    width: 1000px;
+    margin-top: 30px;
+    position: relative;
+}
+.getMoney .rwfuli,
+.getMoney .gamefuli{
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}
+.getMoney .gameinfo a{
+    width: 168px;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    margin-left: -84px;
+    bottom: 0;
+    background: url("../images/lingqu_btn.png") no-repeat;
+}
+/*获取金钱结束*/
+/*固定标签开始*/
+#float .flbox{
+    width: 101px;
+    height: 484px;
+    background: url(../images/float_right.png) no-repeat;
+    position: fixed;
+    right: 0;
+    top: 240px;
+}
+#float ul {
+    position: absolute;
+    left: -4px;
+    top: 69px;
+}
+#float ul li{
+    margin: 18px 5px;
+    position: relative;
+
+}
+#float ul li img{
+    padding-top: 13px;
+}
+#float ul li a{
+    font:20px/40px "微软雅黑";
+    color: #2AC2A7;
+    width: 53px;
+
+
+
+}
+#float ul li a:hover{
+    text-decoration: underline;
+
+}
+#float ul span{
+    font:18px/39px "微软雅黑";
+    color:#fff;
+    position: absolute;
+    color: #2AC2A7;
+    left: 17px;
+    top: 16px;
+    padding-right: 30px;
+}
+/*固定标签结束*/

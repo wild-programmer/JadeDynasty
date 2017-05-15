@@ -1,0 +1,1032 @@
+
+
+.bg_audio {
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    right: 0;
+    top: -100px;
+}
+
+.sound_control {
+    width: 40px;
+    height: 36px;
+    margin-left: 500px;
+    position: fixed;
+    top: 10px;
+    left: 60%;
+    z-index: 10;
+    background: url(../images/sound_off.png) center center no-repeat;
+    cursor: pointer;
+}
+
+.sound_control_detail {
+    right: 260px;
+}
+
+/*.sound_xq {*/
+/*background: url(images/sound_offp.png) center center no-repeat;*/
+/*}*/
+
+.sound_control.on {
+    background: url(../images/sound_on.png) center center no-repeat;
+}
+
+
+/*头部开始*/
+
+#head{
+    position: relative;
+}
+#head .logo{
+    width: 43px;
+    height: 43px;
+    background: url("../images/qita/icon_logo.png") no-repeat;
+    position: absolute;
+    left:113px;
+    top: 6px;
+}
+#head .nav{
+    width: 1037px;
+    margin-left: 175px;
+}
+#head .nav ul li{
+    float: left;
+}
+#head .nav ul .kong{
+    width: 1px;
+    height: 20px;
+    background-color: #C2D0CF;
+    padding: 0;
+    margin-top: 18px;
+}
+#head .nav li a{
+    width: 117px;
+    height: 20px;
+    display: block;
+    font-size: 19px;
+    line-height: 55px;
+    text-align: center;
+    color: #527977;
+}
+#head .nav li a:hover{
+    color:red;
+}
+#weixin{
+    width: 143px;
+    height: 45px;
+    margin-top: 10px;
+    position: relative;
+    cursor: pointer;
+}
+#weixin .wxtu {
+    width: 35px;
+    height: 35px;
+    padding-right: 10px;
+    float: left;
+    background: url("../images/qita/wx_head.png") no-repeat;
+}
+#weixin p{
+    line-height: 17px;
+    font-size: 14px;
+    color: #527977;
+}
+#weixin .ewm{
+    position: absolute;
+    top:45px;
+    left: 5px;
+    display: none;
+
+}
+#weixin .ewm img{
+     padding-bottom: 10px;
+ }
+#weixin .ewm p{
+    font-size: 13px;
+    padding-left:10px;
+}
+
+/*添加全局背景色*/
+.warprao {
+    background-color: #E0EEF1;
+}
+/*添加顶部背景图*/
+.bg {
+    background: url("../images/qita/bg.jpg") top center no-repeat;
+}
+.bg .wBig {
+    padding-top: 360px;
+}
+.bg .w{
+    background-color: #FFFFFF;
+}
+/*攻略头部开始*/
+
+#gonglue{
+    height: 55px;
+    border-bottom: 1px solid #AFE4DC;
+    background-color: #7AD5C5;
+}
+#gonglue li{
+    float: left;
+    text-align: center;
+}
+#gonglue li a{
+    display: block;
+    width: 142px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 20px;
+    /*background-color: #7AD5C5;*/
+}
+#gonglue li a:hover{
+    background-color: #0BAC9C;
+    color:#fff;
+}
+#gonglue .first{
+    background-color: #0BAC9C;
+    color:#fff;
+}
+/*攻略头部结束*/
+/*玩家攻略开始*/
+#gl{
+    height: 80px;
+    padding-top: 16px;
+    padding-left: 18px;
+    background-color: #7AD5C5;
+}
+#gl i{
+    width: 88px;
+    font-size: 14px;
+    color:#0BAC9C;
+    height: 24px;
+    line-height: 24px;
+    display: inline-block;
+    text-align: center;
+    background: url("../images/qita/tab_bg.png") no-repeat;
+}
+#gl .xinshou{
+    margin-bottom: 12px;
+}
+.xinshou a,.wanfa a{
+    display: inline-block;
+    padding-left: 37px;
+    font-size: 14px;
+    color:#FFFFFF;
+    height: 24px;
+    line-height: 24px;
+}
+.xinshou a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.wanfa a:hover{
+    color: black;
+    text-decoration: underline;
+}
+/*玩家攻略结束*/
+/*左侧轮播图开始*/
+#lunbo{
+    width: 620px;
+    height: 360px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+#lunbo ul{
+    width: 6000px;
+    position: absolute;
+    top: 0;
+}
+#lunbo ul li{
+    float: left;
+
+}
+#lunbo .tishixx{
+    position: absolute;
+    width: 582px;
+    left:0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .7);
+    padding: 0 18px;
+}
+#lunbo .tishixx .left{
+    float: left;
+    line-height: 42px;
+    height: 42px;
+    color: #FFFFFF;
+}
+#lunbo .tishixx .right{
+    float: right;
+    line-height: 42px;
+    height: 42px;
+    color: #FFFFFF;
+}
+#lunbo .arrowtop{
+    display: none;
+}
+#lunbo .arrowtop span{
+    width: 38px;
+    height: 57px;
+    position: absolute;
+    top:50%;
+
+}
+#lefttop{
+    left: 0;
+    background: url("../images/qita/prev.png") no-repeat;
+}
+#righttop{
+    right: 0;
+    background: url("../images/qita/next.png") no-repeat;
+}
+/*左侧轮播图结束*/
+/*右侧信息栏开始*/
+#glbox .new{
+    float: right;
+}
+#glbox .new .top-new{
+    width: 358px;
+    height: 90px;
+    background-color: #E1F3EF;
+    padding: 22px 0 0 22px ;
+}
+#glbox .top-new .poxtu{
+    float: left;
+}
+#glbox .top-new .poxbt{
+    float: left;
+    padding-left: 9px;
+}
+#glbox .top-new .poxbt h2{
+    font-size: 20px;
+    color: #0BBAC2;
+    line-height: 32px;
+    padding-bottom: 10px;.glbox .top-new .poxbt
+}
+#glbox .top-new .poxbt p{
+    font-size: 12px;
+    line-height: 18px;
+    height: 18px;
+}
+#glbox .new .bt-new{
+    width: 337px;
+    height: 235px;
+    border-bottom: 1px solid #E0EEF1;
+    padding: 12px 21px 0 22px;
+}
+#glbox .new .bt-new li{
+    height: 34px;
+    line-height: 34px;
+}
+#glbox .new .bt-new a{
+    display: block;
+    float: left;
+}
+#glbox .new .bt-new span{
+    float: right;
+}
+/*右侧信息栏结束*/
+
+
+/*第一个攻略区域结束*/
+/*活动条开始*/
+#activity{
+    height: 22px;
+    padding: 22px 0 21px 108px;
+    border-top: 1px solid #E0EDF1;
+    border-bottom:1px solid #E0EDF1 ;
+    background: url("../images/qita/event_tab.png")no-repeat 18px 22px;
+}
+#activity ul li{
+    float: left;
+    padding-left: 15px;
+    
+    background:url("../images/qita/dian.png") no-repeat 0 6px;
+}
+#activity ul .one{
+    padding-right: 52px;
+}
+#activity ul a{
+    font-size: 12px;
+}
+/*活动条结束*/
+/*职业攻略区开始*/
+#zhiyegl{
+    border-bottom: 30px #E0EEF1 solid;
+
+}
+/*左侧tab图切换开始*/
+#tabtu{
+    width: 620px;
+    height: 360px;
+    float: left;
+    position: relative;
+}
+#tabtu ul{
+    position: absolute;
+    right: 21px;
+    top: 40px;
+}
+#tabtu li{
+    width: 35px;
+    height: 41px;
+    line-height: 41px;
+    text-align: center;
+    margin-bottom: 8px;
+    background: url("../images/qita/rolelisth.png")no-repeat;
+}
+#tabtu .first{
+    background: url("../images/qita/rolelisth_hover.png")no-repeat;
+}
+/*左侧tab图切换结束*/
+#tabnew{
+    width: 335px;
+    height: 348px;
+    padding: 12px 0 0 22px;
+    border-left: 1px solid #F2FBF9;
+    float: left;
+    background-color: #F2FBF9;
+}
+.tabnew h2{
+    font-size: 22px;
+    line-height: 34px;
+    color: #2AC5A6;
+    border-bottom: 1px solid #2AC5A6;
+}
+#gltu{
+    padding-top: 8px;
+}
+#lTu,#rTu{
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+#rTu{
+    float: right;
+}
+#linfo,#rinfo{
+    width:162px;
+    height:28px;
+    background-color: #000000;
+    position: absolute;
+    bottom: 0;
+    display: none;
+}
+#gltu h3{
+    color: #FFFFFF;
+    font-size: 12px;
+    line-height: 28px;
+
+}
+#tabnew .news{
+    padding-top: 5px;
+}
+#tabnew .news li{
+    height: 12px;
+    border-bottom: 1px dashed #464646;
+    padding: 6px 0 11px 16px;
+    background: url("../images/qita/tit_icon.png") no-repeat 0 5px;
+}
+#tabnew .news a:hover{
+    color:#9C9458;
+}
+#tabnew .tabgl{
+    padding-top: 5px;
+
+}
+#tabnew .tabgl li{
+    float: left;
+    margin-right: 10px;
+    text-align: center;
+}
+#tabnew .tabgl .last{
+    margin-right: 0;
+}
+#tabnew .tabgl a{
+    display: block;
+    width: 76px;
+    height: 23px;
+    line-height: 23px;
+    color: #FFFFFF;
+    background-color: #0BAC9C;
+}
+#tabnew .tabgl a:hover{
+    background-color: #2AC2A7;
+}
+    /*职业攻略区结束*/
+/*右侧浮动栏开始*/
+#rfloat{
+    width: 180px;
+    background-color: #BCE8E3;
+    position: fixed;
+    right: 0;
+    top: 116px;
+    margin-bottom: 100px;
+    z-index: 99;
+}
+#rfloat .fltop{
+    width: 180px;
+    height: 34px;
+    text-align: center;
+    background-color: #2AC2A7;
+}
+#rfloat .fltop h3{
+    font-size: 18px;
+    line-height: 34px;
+    color:#FFFFFF;
+}
+#rfloat .flbtm{
+    width: 180px;
+    height: 45px;
+    text-align: center;
+    background-color: #2AC2A7;
+}
+#rfloat .flbtm a{
+    display: block;
+    font-size: 18px;
+    line-height: 45px;
+    color:#FFFFFF;
+}
+#rfloat .downtu{
+
+    padding: 10px 9px 18px 9px;
+}
+#rfloat .downtu .saoma{
+    width: 120px;
+    height: 148px;
+    padding: 14px 20px 0 22px;
+    margin-bottom: 8px;
+}
+#rfloat .downtu .saoma p{
+    padding: 3px 0 0 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #2ac2a7
+}
+#rfloat .downtu .app{
+    margin-bottom: 8px;
+}
+#rfloat .downtu .app a{
+    display: block; 
+    width: 161px;
+    height: 61px;
+    background: url("../images/gddwtp/apple.jpg")no-repeat;
+}
+#rfloat .downtu .android{
+    margin-bottom: 13px;
+}
+#rfloat .downtu .android a{
+    display: block;
+    width: 161px;
+    height: 61px;
+    background:url("../images/gddwtp/android.jpg") no-repeat;
+}
+#rfloat .downtu .input{
+    margin-bottom: 8px;
+}
+#rfloat .downtu .input a{
+    width: 163px;
+    height: 63px;
+    display: block;
+    background: url("../images/gddwtp/enter.jpg") no-repeat;
+}
+#rfloat .downtu .linglb{
+    margin-bottom: 8px;
+}
+#rfloat .downtu .linglb a{
+    width: 163px;
+    height: 63px;
+    display: block;
+    background: url("../images/gddwtp/libao.jpg") no-repeat;
+}
+#rfloat .controls{
+    width: 29px;
+    height: 114px;
+    position: absolute;
+    top: 156px;
+    left: -29px;
+    background: url("../images/gddwtp/slider_close.png") no-repeat;
+    cursor: pointer;
+}
+/*右侧浮动栏结束*/
+/*装备强化*/
+#picture {
+    width: 1000px;
+    height: 272px;
+    margin: 0 auto;
+    background: #fff;
+    padding-top: 30px;
+}
+
+/*装备强化——左*/
+#picture .equ {
+    padding-top: 22px;
+    padding-left: 18px;
+    width: 600px;
+    height: 250px;
+    float: left;
+}
+
+#picture .equ_t {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #2ac5a6;
+    width: 580px;
+    font-family: "微软雅黑";
+    color: #2ac5a6;
+}
+#picture .equ_t{
+    font-size: 22px;
+}
+#picture .equ_t span {
+    font-size: 14px;
+}
+
+#picture .equ_b {
+    padding-top: 20px;
+}
+
+#picture .equ_b a {
+    padding-right: 4px;
+    display: block;
+    width: 144px;
+    height: 250px;
+    float: left;
+}
+
+#picture .equ_b a img {
+    opacity: 0.6;
+}
+
+#picture .equ_b img:hover {
+    opacity: 1;
+}
+
+/*右边*/
+#picture .str {
+    padding-top: 22px;
+    width: 335px;
+    border-left: 1px solid #e0edf1;
+    height: 250px;
+    float: left;
+    padding-left: 22px;
+}
+
+#picture .str_t {
+    font-family: "微软雅黑";
+    border-bottom: 1px solid #2ac5a6;
+    padding-bottom: 5px;
+    color: #2ac5a6;
+}
+
+#picture .str_t h2{
+    font-size: 22px;
+}
+
+#picture .str_t span {
+    font-size: 14px;
+}
+
+#picture .str_c {
+    padding-top: 5px;
+}
+
+#picture .str_c li {
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px dashed #464646;
+    position: relative;
+}
+
+#picture .str_c a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #464646;
+    padding-left: 15px;
+}
+
+#picture .str_c a:hover {
+    color: #8A807F;
+}
+
+#picture .str_c i {
+    background: url("../images/tit_icon.png") no-repeat bottom center;
+    top: 8px;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+}
+
+#picture .str_b li {
+    font: 14px/30px "微软雅黑";
+    border-top: 1px solid #2ac5a6;
+    border-bottom: 1px solid #2ac5a6;
+    text-align: center;
+    margin-top: 10px;
+    height: 30px;
+}
+
+#picture .str_b a {
+    color: #2ac5a6;
+}
+
+/*装备强化结束*/
+/*<!--阵灵图鉴开始-->*/
+#picture_1 {
+    width: 1000px;
+    height: 780px;
+
+    margin: 30px auto;
+}
+
+/*文字部分*/
+#picture_1 .map {
+    width: 964px;
+    height: 338px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 22px;
+    background: #fff;
+    border-bottom: 1px solid #e0edf1;
+    position: relative;
+
+}
+
+#picture_1 .map_tab {
+    border-bottom: 1px solid #2ac5a6;
+}
+
+#picture_1 .map_tab h2 {
+    float: left;
+    font-family: "微软雅黑";
+    color: #2ac5a6;
+    font-size: 22px;
+}
+#picture_1 .map_tab span{
+    font-size: 14px;
+}
+
+#picture_1 .map_tab .list_more {
+    display: block;
+    text-indent: -9999px;
+    width: 19px;
+    height: 19px;
+    background: url(../images/more.png) no-repeat;
+    position: absolute;
+    right: 22px;
+    top: 32px;
+}
+
+#picture_1 .map_tab .color_box {
+    margin-left: 38px;
+    float: left;
+}
+
+#picture_1 .color_box li {
+    width: 38px;
+    margin-right: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 16px;
+    float: left;
+    cursor: pointer;
+}
+
+#picture_1 .color_box .green {
+    color: #2ac5a6;
+}
+
+#picture_1 .color_box .blue {
+    color: #3482da;
+}
+
+#picture_1 .color_box .purple {
+    color: #8d48a3;
+}
+
+#picture_1 .color_box .yellow {
+    color: #ebca1f;
+}
+
+#picture_1 .color_box ul li.on, #picture_1 .color_box ul li:hover {
+    border-bottom: 3px solid #2ac5a6;
+    color: #2ac5a6;
+}
+
+/*文字部分结束*/
+/*tab切换*/
+#picture_1 .green_box {
+    width: 964px;
+    height: 258px;
+    margin-top: 18px;
+    position: relative;
+    overflow: hidden;
+}
+
+#picture_1 .lv1 ul li {
+    width: 1000px;
+    height: 248px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+
+#picture_1 .lv1 ul li a {
+    display: block;
+    float: left;
+    width: 145px;
+    height: 218px;
+    margin-right: 18px;
+    position: relative;
+    overflow: hidden;
+}
+/*滑动图片*/
+#picture_1 .map .img{
+    width: 145px;
+    height: 218px;
+    position: absolute;
+    top: 218px;
+    left: 0px;
+    border: 0;
+    outline: none;
+}
+#picture_1 .map .img span{
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    z-index: 99999;
+    color: #fff;
+    font-size: 15px;
+}
+/*滑动图片结束*/
+#picture_1 .green_box .dots, #picture_1 .blue_box .dots, #picture_1 .purple_box .dots {
+    height: 13px;
+    position: absolute;
+    margin: 0 auto;
+    bottom: 0px;
+    left: 50%;
+}
+
+#picture_1 .green_box .dot, #picture_1 .blue_box .dot, #picture_1 .purple_box .dot {
+    width: 13px;
+    height: 13px;
+    margin: 0 2px;
+    float: left;
+    text-indent: -9999px;
+    cursor: pointer;
+    /*background: url(images/dot.png) center center no-repeat;*/
+    background: url(../images/doth.png) center center no-repeat;
+
+}
+
+#picture_1 .data_con {
+    display: none;
+}
+
+#picture_1 .data_con.selected {
+    display: block;
+
+}
+/*阵灵图下部*/
+#picture_1 .map_news{
+    width: 980px;
+    height: 380px;
+    padding-left: 20px;
+    padding-top: 20px;
+    background: #fff;
+
+}
+#picture_1 .mapnews1{
+    width: 960px;
+    height: 144px;
+    border-bottom: 1px solid #e0edf1;
+    margin-bottom: 22px;
+
+}
+#picture_1 .news_rt{
+    width: 710px;
+    float: left;
+    margin-left: 26px;
+}
+#picture_1 .news_rt_tit{
+    width: 710px;
+    overflow: hidden;
+}
+#picture_1 .news_rt_tit a{
+    font-size: 24px;
+    font-family: "微软雅黑";
+    color: #2ac5a6;
+    font-weight: bold;
+    float: left;
+}
+#picture_1 .news_rt_tit span{
+    font-size: 14px;
+    float: right;
+    color: #999;
+    margin-top: 5px;
+}
+#picture_1 .news_rt p{
+    margin-top: 28px;
+    font: 14px/26px "微软雅黑";
+    text-indent: 2em;
+}
+#picture_1 .move{
+    float: left;
+}
+
+#picture_1 .info_list_more a{
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid #2ac5a6;
+    border-top: 1px solid #2ac5a6;
+    width: 200px;
+    font:  16px/30px "微软雅黑";
+    margin: 0 auto;
+    color: #2ac5a6;
+}
+/*阵灵图鉴结束*/
+/*游戏特色开始*/
+#picture_2{
+    margin: 0 auto;
+    width: 964px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 22px;
+    background: #fff;
+    position: relative;
+    height: 730px;
+}
+/*文字部分*/
+#picture_2 .tese{
+    border-bottom: 1px solid #e0edf1;
+    padding-bottom: 5px;
+}
+
+#picture_2 .tese h2 {
+    float: left;
+    font-family: "微软雅黑";
+    color: #2ac5a6;
+    font-size: 22px;
+
+}
+#picture_2 .tese span{
+    font-size: 14px;
+}
+
+#picture_2 .tese .list_more {
+    display: block;
+    text-indent: -9999px;
+    width: 19px;
+    height: 19px;
+    background: url(../images/more.png) no-repeat;
+    position: absolute;
+    right: 22px;
+    top: 32px;
+}
+/*文字部分结束*/
+/*旋转木马*/
+#picture_2 .wrap{
+    margin:50px auto;
+}
+#picture_2 .slide {
+    height:500px;
+    position: relative;
+}
+#picture_2 .slide li{
+    position: absolute;
+}
+#picture_2 .slide li img{
+    width:100%;
+}
+#picture_2 .arrow{
+    opacity: 0;
+    position: relative;
+    z-index: 99;
+    top:50%;
+}
+#picture_2 .prev,.next{
+    width:76px;
+    height:112px;
+    position: absolute;
+    top:50%;
+    margin-top:-56px;
+    background: url(../images/next5.png) no-repeat center;
+    z-index: 99;
+}
+#picture_2 .prev{
+    left: -50px;
+}
+#picture_2 .next{
+    right: -50px;
+    background-image: url(../images/next5.png);
+}
+/*旋转木马结束*/
+/*法宝大全*/
+#picture_3{
+    width: 964px;
+    height: 400px;
+    margin: 30px auto;
+    padding: 22px 18px 0 18px;
+    background: #fff;
+    position: relative;
+
+}
+#picture_3 .mag{
+    width: 964px;
+    height: 400px;
+    float: left;
+
+}
+#picture_3 .mag_t{
+    border-bottom: 1px solid #2ac5a6;
+    padding-bottom: 5px;
+    position: relative;
+}
+#picture_3 .mag_t h2 {
+    font-family: "微软雅黑";
+    color: #2ac5a6;
+    font-size: 22px;
+
+}
+#picture_3 .mag_t span{
+    font-size: 14px;
+}
+#picture_3 .mag_t i{
+    width: 19px;
+    height: 19px;
+    position: absolute;
+    background: url("../images/more.png") no-repeat;
+    right: 5px;
+    top: 10px;
+}
+#picture_3 .mag_c{
+    width: 964px;
+    height: 270px;
+    overflow: hidden;
+    position: relative;
+}
+#picture_3 .mag_c li{
+    float: left;
+    overflow: hidden;
+    margin-right: 10px;
+    padding-left: 3px;
+}
+#picture_3 .mag_c ul{
+    width: 9000px;
+    height: 270px;
+    padding-left: 10px;
+    position: absolute;
+}
+
+#picture_3 .mag_b {
+    position: absolute;
+    left: 380px;
+    bottom: 35px;
+    line-height: 20px;
+    text-align: center;
+}
+
+#picture_3 .mag_b li {
+    float: left;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+#picture_3 .mag_b li.curren{
+    background: #2ac5a6;
+}
+#picture_3 #arrL {
+    display: none;
+}
+
+#picture_3 #arrL span {
+    width: 30px;
+    height: 40px;
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    margin-top: -10px;
+    background: #2ac5a6;
+    cursor: pointer;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-family: '黑体';
+    font-size: 30px;
+    color: #fff;
+    opacity: 0.3;
+    border: 1px solid #fff;
+}
+
+#picture_3 #arrL #rightL {
+    right: 5px;
+    left: auto;
+}
+
+#wn{
+    background-color: #E0EEF1;
+}

@@ -1,0 +1,144 @@
+/* public */
+html,body,form,ol,ul,li,div,p,dl,dt,dd,h1,h2,h3,h4,h5,h6,table,th,td,font,em,ins,span,a{margin:0; padding:0; font-family:微软雅黑;}
+h1,h2,h3,h4,h5,h6,button,input,select,textarea{font-size:100%;font-weight:normal}
+html{_filter:expression(document.execCommand("BackgroundImageCache",false,true));}
+ul,li,div,dl,dt,dd{list-style:none;}
+h1.wm-public{height:0px; line-height:0px; font-size:0px;}
+a{text-decoration:none;}
+a{blr:expression(this.onFocus=this.blur());outline:none;}
+/*a:hover{text-decoration:underline;}*/
+a:hover{text-decoration:none;}
+img{border:0;}
+font,em{font-style:normal; font-family:\5b8b\4f53;}
+label{vertical-align:middle; font-family:tahoma;}
+textarea,input{resize:none; outline:none;}
+textarea{overflow:auto;}
+ins{float:right; text-decoration:none; font-weight:normal;}
+.pub_wsp{word-wrap:break-word; word-break:break-all;}
+.pub_abso{vertical-align:middle;}
+.pub_clr{clear:both;font-size:0;height:0;line-height:0;overflow:hidden;}
+.pub_yh{font-family:"Microsoft YaHei";}
+.none{display:none;}
+.span{ color:red;}
+/*浮动清理*/
+.cf:before,.cf:after{content:".";display:block;height:0;visibility:hidden}
+.cf:after{clear:both}
+.cf{zoom:1}
+@font-face {
+  font-family: 'fz';
+  /*src: url('http://zx.wanmei.com/resources/ttf/160415/10641460710301393.ttf')  format('truetype');*/
+  src: url('fz.ttf')/*tpa=http://zhuxian.wanmei.com/hd/1610/info/style/fz.ttf*/  format('truetype');
+}
+/* page background */
+body{ margin:0; padding:0; font-size:12px; font-family:"微软雅黑","宋体",Arial, Helvetica, sans-serif; background-color:#2A2F44;}
+#content{width:100%;min-width:1200px;position:relative;}
+#wrap{width:100%;background:#000 url(indexbg.jpg)/*tpa=http://zhuxian.wanmei.com/hd/1610/info/images/indexbg.jpg*/ no-repeat center top;}
+.headerBox{position:relative;width:1200px;margin:0 auto;height:1039px;}
+.headerBox a.ibtn{display:block;position:absolute;text-indent:-9999px;}
+.headerBox a.ibtn1{width:184px;height:174px;background:url(ibtn1.png)/*tpa=http://zhuxian.wanmei.com/hd/1610/info/images/ibtn1.png*/ no-repeat 0 0;top:138px;left:80px;}
+.headerBox a.ibtn1:hover{background-position:-187px 1px;}
+.headerBox a.ibtn2{width:187px;height:175px;background:url(ibtn3.png)/*tpa=http://zhuxian.wanmei.com/hd/1610/info/images/ibtn3.png*/ no-repeat 0 0;top:335px;left:5px;}
+.headerBox a.ibtn2:hover{background-position:-190px 0;}
+.headerBox a.ibtn3{width:185px;height:178px;background:url(ibtn2.png)/*tpa=http://zhuxian.wanmei.com/hd/1610/info/images/ibtn2.png*/ no-repeat 0 0;top:537px;left:78px;}
+.headerBox a.ibtn3:hover{background-position:-189px 0;}
+.headerBox a.ibtn4{width:184px;height:174px;background:url(ibtn4.png)/*tpa=http://zhuxian.wanmei.com/hd/1610/info/images/ibtn4.png*/ no-repeat 0 0;top:138px;right:80px;}
+.headerBox a.ibtn4:hover{background-position:-186px 0;}
+.headerBox a.ibtn5{width:187px;height:175px;background:url(ibtn5.png)/*tpa=http://zhuxian.wanmei.com/hd/1610/info/images/ibtn5.png*/ no-repeat 0 0;top:335px;right:5px;}
+.headerBox a.ibtn5:hover{background-position:-191px 0;}
+.headerBox a.ibtn6{width:185px;height:178px;background:url(ibtn6.png)/*tpa=http://zhuxian.wanmei.com/hd/1610/info/images/ibtn6.png*/ no-repeat 0 0;top:537px;right:78px;}
+.headerBox a.ibtn6:hover{background-position:-188px 0;}
+
+
+/*内页*/
+#pageContain{width:100%;height:1039px;overflow:hidden;*min-height:950px;}
+#navBar{width:440px;position:fixed;top:42px;right:0;z-index:22;}
+#navBar li{width:78px;height:929px;float:left;margin-right:10px;cursor:pointer;}
+#navBar li.nav1{background:url(nav_zt.png)/*tpa=http://zhuxian.wanmei.com/hd/1610/info/images/nav_zt.png*/ no-repeat 0 0;}
+#navBar li.nav2{background:url(nav_nt.png)/*tpa=http://zhuxian.wanmei.com/hd/1610/info/images/nav_nt.png*/ no-repeat 0 0;}
+#navBar li.nav3{background:url(nav_ry.png)/*tpa=http://zhuxian.wanmei.com/hd/1610/info/images/nav_ry.png*/ no-repeat 0 0;}
+#navBar li.nav4{background:url(nav_xh.png)/*tpa=http://zhuxian.wanmei.com/hd/1610/info/images/nav_xh.png*/ no-repeat 0 0;}
+#navBar li.nav5{background:url(nav_m.png)/*tpa=http://zhuxian.wanmei.com/hd/1610/info/images/nav_m.png*/ no-repeat 0 0;}
+#navBar li.nav6{background:url(nav_ce.png)/*tpa=http://zhuxian.wanmei.com/hd/1610/info/images/nav_ce.png*/ no-repeat 0 0;}
+#navBar li:hover{background-position:-78px 0;}
+#navBar li.active{display:none;}
+.page{display:none;width:100%;height:1039px;position:absolute;top:0;left:0;overflow:hidden;}
+
+.contain{width:540px;height:100%;display:none;position:relative;z-index:0;margin:0 auto;text-align:center;}
+.contain h2{font-size:54px;color:#fff;padding-top:180px;font-family:"fz";}
+.contain p{font-size:20px;color:#fff;font-family:"fz";}
+.contain a.check{display:block;width:99px;height:99px;background:url(xiang.png)/*tpa=http://zhuxian.wanmei.com/hd/1610/info/images/xiang.png*/ no-repeat center;text-indent:-9999px;margin:400px auto 0;}
+.contain a:hover{-webkit-animation: swing 1.2s;}
+
+.current .contain,.slide .contain{display:block;}
+
+.current{display:block;z-index:1;}
+/*很关键的，没有的话动画不会显示*/
+.slide{display:block;z-index:2;}
+
+.page1{background:url(zt.jpg)/*tpa=http://zhuxian.wanmei.com/hd/1610/info/images/zt.jpg*/ no-repeat center top;}
+.page2{background:url(nt.jpg)/*tpa=http://zhuxian.wanmei.com/hd/1610/info/images/nt.jpg*/ no-repeat center top;}
+.page3{background:url(ry.jpg)/*tpa=http://zhuxian.wanmei.com/hd/1610/info/images/ry.jpg*/ no-repeat center top;}
+.page4{background:url(xh.jpg)/*tpa=http://zhuxian.wanmei.com/hd/1610/info/images/xh.jpg*/ no-repeat center top;}
+.page5{background:url(morebg.jpg)/*tpa=http://zhuxian.wanmei.com/hd/1610/info/images/morebg.jpg*/ no-repeat center top;}
+.page6{background:url(qing.jpg)/*tpa=http://zhuxian.wanmei.com/hd/1610/info/images/qing.jpg*/ no-repeat center top;}
+
+/*公测庆典*/
+.page6 .contain .links{width:695px;height:341px;position:absolute;left:50%;margin-left:-347px;top:340px;}
+.page6 .contain .links li{width:156px;height:156px;position:absolute;background:url(ce.png)/*tpa=http://zhuxian.wanmei.com/hd/1610/info/images/ce.png*/ no-repeat 0 0;cursor:pointer;top:0;left:0;}
+.page6 .contain .links li:hover{background-position:-157px 0;}
+.page6 .contain .links li.link1{left:91px;}
+.page6 .contain .links li.link2{left:271px;}
+.page6 .contain .links li.link3{left:449px;}
+.page6 .contain .links li.link4{left:0;top:94px;}
+.page6 .contain .links li.link5{top:94px;left:180px;}
+.page6 .contain .links li.link6{top:94px;left:360px;}
+.page6 .contain .links li.link7{top:94px;left:540px;}
+.page6 .contain .links li.link8{top:186px;left:91px;}
+.page6 .contain .links li.link9{top:186px;left:271px;}
+.page6 .contain .links li.link10{top:186px;left:449px;}
+
+
+.page6 .contain .links h4{color:#fff;font-size:16px;text-align:center;font-family:"微软雅黑";padding-top:56px;}
+.page6 .contain .links span{display:block;width:63px;height:16px;text-align:center;line-height:16px;font-size:12px;color:#000;font-family:"宋体";background:url(cir.png)/*tpa=http://zhuxian.wanmei.com/hd/1610/info/images/cir.png*/ no-repeat center;position:absolute;left:50%;margin-left:-31.5px;top:42px;}
+.page6 .contain .links .link3 h4{padding-top:68px;}
+.page6 .contain .links .link4 h4,.page6 .contain .links .link5 h4,.page6 .contain .links .link10 h4{padding-top:60px;}
+.page6 .contain .links .link6 h4,.page6 .contain .links .link7 h4,.page6 .contain .links .link8 h4{padding-top:75px;}
+.page6 .contain .links .link6 span,.page6 .contain .links .link7 span,.page6 .contain .links .link8 span{top:56px;}
+.page6 .contain .links .link8 span{width:86px;background:url(cir2.png)/*tpa=http://zhuxian.wanmei.com/hd/1610/info/images/cir2.png*/ no-repeat center;margin-left:-43px;}
+
+
+@-webkit-keyframes swing {
+	20%,40%,60%,80%,100%{-webkit-transform-origin: top center;}
+	20%{-webkit-transform: rotate(8deg);}
+	40%{-webkit-transform: rotate(-6deg);}
+	60%{-webkit-transform: rotate(4deg);}
+	80%{-webkit-transform: rotate(-2deg);}
+	100%{-webkit-transform: rotate(0deg);}
+}
+
+
+/*弹窗*/
+.pop{width:800px;height:600px;background:#f5f4f0;position:relative;display:none;}
+.pop span.closeBtn{display:block;width:29px;height:29px;background:url(closeBtn.png)/*tpa=http://zhuxian.wanmei.com/hd/1610/info/images/closeBtn.png*/ no-repeat center;text-indent:-9999px;position:absolute;top:13px;right:13px;cursor:pointer;}
+.pop ul.p_nav{height:57px;background:#9a8a48;padding-left:30px;}
+.pop ul.p_nav li{width:138px;height:52px;line-height:57px;text-align:center;cursor:pointer;color:#f8f5ea;font-size:20px;float:left;margin-right:5px;}
+.pop ul.p_nav li.on{border-bottom:5px solid #dccc8a;}
+.pop .p_wrap{width:730px;height:475px;margin:0 auto;position:relative;padding-top:30px;overflow:hidden;}
+.pop .p_con{height:475px;overflow:hidden;width:730px;top:30px;}
+.pop .p_con img{display:block;margin:10px auto;}
+
+/*弹窗内容*/
+.pop .details{display:none;}
+.details{line-height:26px;font-size:14px;padding-right:25px;}
+
+/*滚动条*/
+.vertical-track{width:1px;right:4px;background:#b7b3a5;}
+.vertical-handle{width:8px;border-radius:4px;background-color: #9a8a48;position:absolute;left:50%;margin-left:-4px;}
+.vertical-handle:hover{}
+
+.table {margin: auto;font-size: 12px;border-collapse: collapse;border: 1px #9a8a48 solid;width:80%;}
+.table th,.table td{text-align:center;padding:4px 0px;margin:0px;}
+.table td {color:#000;border:1px #9a8a48 solid;line-height:26px;padding:0 10px;}
+.table th{background:#9a8a48;color:#f6ff00;font-weight:bold;}
+
+.details strong{color:red;}

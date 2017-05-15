@@ -1,0 +1,1036 @@
+
+/*banner部分开始*/
+#banner{
+    width: 100%;
+    height: 981px;
+    background: url(../images/coverBg.jpg) center top no-repeat;
+    margin-top: 1px;
+    border-top: 1px solid #D0D0D0;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+#banner embed{
+    width: 1920px;
+    height: 865px;
+    Wmode: Transparent;
+    position: absolute;
+    top: 34px;
+    left: -70px;
+
+}
+
+#banner .qiankun{
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+
+#banner .qiankun a{
+    width: 205px;
+    height: 165px;
+    display: block;
+    background: url(../images/zhuxian3.png);
+}
+
+#banner .link{
+    display: block;
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+
+#banner .video{
+    width: 291px;
+    height: 146px;
+    background: url(../images/vedio_shade.png);
+    position: absolute;
+    top: 390px;
+    left: 72px;
+    overflow: hidden;
+    /*display: none;*/
+    /*border: 1px solid #000;*/
+    /*opacity: 0.1;*/
+}
+
+#banner .tip{
+    height: 29px;
+    margin-top: 361px;
+}
+
+#banner .tip .left{
+    width: 360px;
+    height: 29px;
+    background-color: #fff;
+    float: left;
+}
+
+#banner .tip .left span{
+    display: block;
+    width: 350px;
+    height: 29px;
+    background: url(../images/iconTips.jpg) left no-repeat;
+    padding-left: 70px;
+    line-height: 29px;
+    font-size: 14px;
+}
+
+#banner .tip .left a{
+    font-size: 14px;
+    color: red;
+    padding: 0 10px;
+}
+
+#banner .tip .duanyou{
+    float: right;
+    width: 174px;
+    height: 45px;
+    background-color: #42B28C;
+    position: relative;
+    color: #fff;
+    margin-top: -16px;
+
+}
+
+#banner .tip .duanyou:hover{
+    background: #1ED999;
+}
+
+#banner .tip .duanyou a{
+    display: block;
+    width: 124px;
+    height: 45px;
+    padding-left: 52px;
+    color: #fff;
+    font: 400 18px/45px microsoft yahei;
+}
+
+#banner .tip .duanyou span{
+    width: 17px;
+    height: 18px;
+    display: block;
+    background: url(../images/icon_pc.png) no-repeat left;
+    position: absolute;
+    left: 19px;
+    top: 15px;
+}
+
+#banner .tip .shouyou{
+    float: right;
+    width: 174px;
+    height: 45px;
+    background-color: #242424;
+    color: #fff;
+    /*margin-right: 23px;*/
+    margin-left: 23px;
+    margin-top: -16px;
+    position: relative;
+}
+
+#banner .tip .shouyou:hover{
+    background-color: #B09F54;
+}
+
+#banner .tip .shouyou span{
+    width: 17px;
+    height: 18px;
+    display: block;
+    background: url(../images/icon_phone.png) no-repeat left;
+    position: absolute;
+    left: 19px;
+    top: 15px;
+}
+
+#banner .tip .shouyou a{
+    display: block;
+    width: 124px;
+    height: 45px;
+    padding-left: 52px;
+    color: #fff;
+    font: 400 18px/45px microsoft yahei;
+}
+
+#banner .form{
+    margin-top: 19px;
+}
+
+#banner .form .title .num{
+    width: 33px;
+    height: 33px;
+    background-color: #42B28C;
+    transform: rotate(45deg);
+    float: left;
+}
+
+#banner .form .title{
+    position: relative;
+    margin-left: 40px;
+    margin-top: -5px;
+}
+
+#banner .form .title h1{
+    float: left;
+    padding-left: 15px;
+    color: #373737;
+    font-size: 29px;
+    margin-top: -5px;
+    margin-bottom: 10px;
+}
+
+#banner .form .title span{
+    color: #42B28C;
+}
+
+#banner .form .title p{
+    color: #fff;
+    font-size: 23px;
+    position: absolute;
+    top: 1px;
+    left: 4px;
+}
+/*左边轮播图部分*/
+#banner .form_left{
+    width: 464px;
+    height: 320px;
+    background-color: #fff;
+    padding-top: 22px;
+    float: left;
+    position: relative;
+}
+
+#banner .form_left ul{
+    width: 6000px;
+    top: 0px;
+    left: 0px;
+}
+
+#banner .form_left ul li{
+    width: 464px;
+    height: 342px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#banner .form_left .arr_left{
+    position: absolute;
+    top: 140px;
+    left: 10px;
+}
+
+#banner .form_left .arr_right{
+    position: absolute;
+    top: 140px;
+    right: 10px;
+}
+
+#banner .form_left input{
+    width: 393px;
+    height: 48px;
+    background-color: #42B28C;
+    position: absolute;
+    left: 35px;
+    bottom: 21px;
+    color: #fff;
+    font: 600 21px microsoft yahei;
+}
+
+#banner .form_left input:hover{
+    background-color: #1ED999;
+}
+/*中间表单注册部分*/
+#banner .form_middle{
+    width: 359px;
+    height: 320px;
+    background-color: #fff;
+    margin-left: 9px;
+    float: left;
+    padding-top: 22px;
+    position: relative;
+}
+
+#banner .form_middle .title .num{
+    background-color: #948649;
+}
+
+#banner .form_middle ul{
+    margin-left: 18px;
+}
+
+#banner .form_middle ul li{
+    width: 107px;
+    height: 30px;
+    background-color: #D2B848;
+    color: #fff;
+    font: 14px microsoft yahei;
+    float: left;
+    line-height: 30px;
+    margin-left: 1px;
+    text-align: center;
+}
+
+#banner .form_middle .select_box{
+    width: 321px;
+    height: 244px;
+    position: absolute;
+    bottom: 0px;
+}
+
+#banner #tipCon{
+    height: 30px;
+    width: 260px;
+    position: absolute;
+    top: 91px;
+    left: 47px;
+    z-index: 3;
+    padding-left: 4px;
+    font: 400 12px/30px microsoft yahei;
+    color: #767676;
+}
+
+#banner .form_middle .style{
+    width: 264px;
+    height: 187px;
+    background-color: #fff;
+    position: absolute;
+    top: 0px;
+    left: 29px;
+    z-index: 2;
+}
+
+
+#banner .form_middle .style div{
+    width: 262px;
+    height: 30px;
+    border: 1px solid #ccc;
+    margin: 1px auto;
+}
+
+.formConfirm{
+    position: relative;
+    /*z-index: 33333;*/
+    top:-64px;
+    left: 120px;
+    /*display: none;*/
+}
+/*#banner .form_middle .style>span{*/
+    /*!*float: right;*!*/
+    /*!*display: block;*!*/
+    /*position: relative;*/
+    /*top: 3px;*/
+    /*right: -24px;*/
+    /*width: 20px;*/
+    /*height: 20px;*/
+    /*border: 1px solid #000;*/
+/*}*/
+
+#banner .form_middle .phone div{
+    width: 262px;
+    height: 30px;
+    border: 1px solid #ccc;
+    margin: 1px auto;
+}
+
+#banner .form_middle .tip{
+    color: black;
+    font-size: 12px;
+    line-height: 18px;
+    position: absolute;
+    left: 65px;
+    bottom: 43px;
+    z-index: 2;
+}
+
+#banner .form_middle .style .username{
+    margin-top: 25px;
+}
+
+#banner .form_middle div input{
+    width: 237px;
+    height: 28px;
+    float: right;
+    font-size: 14px;
+    padding-left: 5px;
+    color: #767676;
+}
+
+#banner .form_middle div span{
+    width: 15px;
+    height: 19px;
+    display: block;
+    float: left;
+    margin-left: 2px;
+    margin-top: 6px;
+}
+
+#banner .form_middle .username span{
+    background: url(../images/中间注册表/1.png) 0 0 no-repeat;
+}
+
+#banner .form_middle .password span{
+    background: url(../images/中间注册表/2.png) 0 0 no-repeat;
+}
+
+#banner .form_middle .emails span{
+    background: url(../images/中间注册表/3.png) 0 0 no-repeat;
+    width: 17px;
+    height: 15px;
+    margin-top: 10px;
+}
+
+#banner .form_middle .click span{
+    background: url(../images/中间注册表/4.png) 0 0 no-repeat;
+    width: 18px;
+    height: 13px;
+    margin-top: 10px;
+}
+
+#banner .form_middle .checkbox{
+    position: absolute;
+    left: 44px;
+    bottom: 52px;
+    z-index: 2;
+}
+
+#banner .form_middle p a{
+    text-decoration: underline;
+    color: black;
+}
+
+#banner .form_middle button{
+    width: 264px;
+    height: 40px;
+    background-color: #948649;
+    outline-style: none;
+    border: none;
+    margin-left: 0px;
+    position: absolute;
+    left: 48px;
+    bottom: 10px;
+    color: #fff;
+    font: 400 16px/40px microsoft yahei;
+}
+
+#banner .form_middle .phone{
+    width: 264px;
+    height: 187px;
+    background-color: #fff;
+    position: absolute;
+    top: 0px;
+    left: 29px;
+    z-index: 1;
+}
+
+#banner .form_middle .phone .username{
+    margin-top: 25px;
+}
+
+#banner .form_middle .phone .lower{
+    width: 120px;
+}
+
+#banner .form_middle .phone .click{
+    width: 150px;
+    margin-left: 0px;
+}
+
+#banner .form_middle .phone .links{
+    width: 110px;
+    height: 31px;
+    display: inline-block;
+    position: absolute;
+    background-color: #948649;
+    color: #fff;
+    top: 58px;
+    right: 0px;
+}
+
+#banner .form_middle .email{
+    width: 264px;
+    height: 187px;
+    background-color: #fff;
+    position: absolute;
+    top: 0px;
+    left: 29px;
+    z-index: 1;
+}
+
+#banner .form_middle .email div{
+    width: 262px;
+    height: 30px;
+    border: 1px solid #ccc;
+    margin: 1px auto;
+}
+
+#banner .form_middle .email .lower{
+    width: 120px;
+}
+
+#banner .form_middle .email .username{
+    margin-top: 25px;
+}
+
+#banner .form_middle .email .click{
+    width: 150px;
+    margin-left: 0px;
+}
+
+#banner .form_middle .email .links{
+    width: 110px;
+    height: 31px;
+    display: inline-block;
+    position: absolute;
+    background-color: #948649;
+    color: #fff;
+    top: 58px;
+    right: 0px;
+}
+
+/*右边客户端下载部分*/
+#banner .form_right{
+    width: 359px;
+    height: 320px;
+    background-color: #fff;
+    margin-left: 9px;
+    float: left;
+    padding-top: 22px;
+}
+
+#banner .form_right .content{
+    width: 298px;
+    height: 238px;
+    margin: 25px auto;
+}
+
+#banner .form_right .content .btn1,
+#banner .form_right .content .btn2{
+    width: 298px;
+    height: 59px;
+    background-color: #42B28C;
+    text-align: center;
+    /*font: 700 23px microsoft yahei;*/
+    margin-top: 10px;
+}
+
+#banner .form_right .content .btn1 a,
+#banner .form_right .content .btn2 a{
+    width: 298px;
+    height: 59px;
+    display: block;
+    font: 700 20px/59px microsoft yahei;
+    color: #fff;
+}
+
+#banner .form_right .content .line{
+    width: 298px;
+    height: 1px;
+    background-color: #ccc;
+    margin-top: 15px;
+}
+
+#banner .form_right .content .bottom{
+    margin-top: 5px;
+}
+
+#banner .form_right .content .bottom a{
+    width: 145px;
+    height: 46px;
+    display: inline-block;
+    border: 1px solid #000;
+    font: 400 20px/46px microsoft yahei;
+    text-align: center;
+}
+
+
+/*banner部分结束*/
+/*大图部分开始*/
+
+#bigBanner{
+    position: relative;
+    /*width: 1263px;*/
+    width: 100%;
+    height: 566px;
+
+}
+
+#bigBanner #choseUl{
+
+    width: 180px;
+    height: 435px;
+    position: absolute;
+    right: 30px;
+    z-index: 5;
+    background: url(../images/大图/ts_right.png);
+    line-height: 565px;
+    padding-top: 130px;
+
+}
+
+#bigBanner #choseUl li{
+    color: #fff;
+    font: 400 14px/65px microsoft yahei;
+    padding-left: 35px;
+    position: relative;
+}
+
+#bigBanner #choseUl li i{
+    width: 11px;
+    height: 11px;
+    display: block;
+    background: url(../images/大图/ca.png);
+    position: absolute;
+    top: 28px;
+    left: 14px;
+}
+
+#bigBanner span{
+    position: absolute;
+    z-index: 5;
+    color: #fff;
+    font: 700 40px 宋体;
+    top: 30px;
+    left: 500px;
+
+}
+/*大图部分结束*/
+/*炫酷大图部分*/
+#cool{
+    width: 100%;
+    /*width: 1263px;*/
+    height: 864px;
+    position: relative;
+    overflow: hidden;
+}
+
+#cool #coolBtn{
+    width: 550px;
+    height: 272px;
+    position: absolute;
+    bottom: 77px;
+    right: 34px;
+    z-index: 1;
+}
+/*人族*/
+#cool #coolBtn .renzu{
+    width: 130px;
+    height: 130px;
+    background: url(../images/炫酷/role_01.png) 0 0;
+    position: relative;
+    top: 142px;
+    left: 70px;
+}
+
+#cool #coolBtn .guiwang{
+    width: 130px;
+    height: 130px;
+    background: url(../images/炫酷/r3h.png) 0 0;
+    position: absolute;
+    top: -70px;
+    left: -70px;
+}
+
+#cool #coolBtn .fenxiang{
+    width: 130px;
+    height: 130px;
+    background: url(../images/炫酷/r1h.png) 0 0;
+    position: absolute;
+    top: -140px;
+    left: 0px;
+}
+
+#cool #coolBtn .hehuan{
+    width: 130px;
+    height: 130px;
+    background: url(../images/炫酷/r4h.png) 0 0;
+    position: absolute;
+    top: -70px;
+    left: 70px;
+}
+
+#cool #coolBtn .qingyun{
+    width: 130px;
+    height: 130px;
+    background: url(../images/炫酷/r5h.png) 0 0;
+    position: absolute;
+    top: -70px;
+    left: 210px;
+}
+
+#cool #coolBtn .guidao{
+    width: 130px;
+    height: 130px;
+    background: url(../images/炫酷/r2h.png) 0 0;
+    position: absolute;
+    top: -140px;
+    left: 280px;
+}
+
+#cool #coolBtn .tianyin{
+    width: 130px;
+    height: 130px;
+    background: url(../images/炫酷/r6h.png) 0 0;
+    position: absolute;
+    top: -70px;
+    left: 350px;
+}
+/*神族*/
+#cool #coolBtn .shenzu{
+    width: 130px;
+    height: 130px;
+    background: url(../images/炫酷/role_02.png) 0 0;
+    position: relative;
+    top: 12px;
+    left: 210px;
+}
+
+#cool #coolBtn .jiuli{
+    width: 130px;
+    height: 130px;
+    background: url(../images/炫酷/s3h.png) 0 0;
+    position: absolute;
+    top: -70px;
+    left: -210px;
+}
+
+#cool #coolBtn .chenhuang{
+    width: 130px;
+    height: 130px;
+    background: url(../images/炫酷/s1h.png) 0 0;
+    position: absolute;
+    top: -140px;
+    left: -140px;
+}
+
+#cool #coolBtn .lieshan{
+    width: 130px;
+    height: 130px;
+    background: url(../images/炫酷/s4h.png) 0 0;
+    position: absolute;
+    top: -70px;
+    left: -70px;
+}
+
+#cool #coolBtn .taihao{
+    width: 130px;
+    height: 130px;
+    background: url(../images/炫酷/s5h.png) 0 0;
+    position: absolute;
+    top: -70px;
+    left: 70px;
+}
+
+#cool #coolBtn .huaiguang{
+    width: 130px;
+    height: 130px;
+    background: url(../images/炫酷/s2h.png) 0 0;
+    position: absolute;
+    top: -140px;
+    left: 140px;
+}
+
+#cool #coolBtn .tianhua{
+    width: 130px;
+    height: 130px;
+    background: url(../images/炫酷/s6h.png) 0 0;
+    position: absolute;
+    top: -70px;
+    left: 210px;
+}
+/*天脉*/
+#cool #coolBtn .tianmai{
+    width: 130px;
+    height: 130px;
+    background: url(../images/炫酷/role_03.png) 0 -130px;
+    position: relative;
+    top: -118px;
+    left: 350px;
+
+}
+
+#cool #coolBtn .guiyun{
+    width: 130px;
+    height: 130px;
+    background: url(../images/炫酷/t1h.png) 0 0;
+    position: absolute;
+    top: -70px;
+    left: -350px;
+}
+
+#cool #coolBtn .qingluo{
+    width: 130px;
+    height: 130px;
+    background: url(../images/炫酷/t2h.png) 0 0;
+    position: absolute;
+    top: -70px;
+    left: -210px;
+}
+
+#cool #coolBtn .yingzhao{
+    width: 130px;
+    height: 130px;
+    background: url(../images/炫酷/t5h.png) 0 0;
+    position: absolute;
+    top: -140px;
+    left: -140px;
+}
+
+#cool #coolBtn .pojun{
+    width: 130px;
+    height: 130px;
+    background: url(../images/炫酷/t3h.png) 0 0;
+    position: absolute;
+    top: -70px;
+    left: -70px;
+}
+
+#cool #coolBtn .qianji{
+    width: 130px;
+    height: 130px;
+    background: url(../images/炫酷/t4h.png) 0 0;
+    position: absolute;
+    top: -70px;
+    left: 70px;
+}
+/*人族图片*/
+
+#cool #coolPic{
+    position: relative;
+}
+
+#cool #coolPic .renzuPic{
+}
+
+#cool #coolPic .guiwang{
+    width: 100%;
+    /*width: 1263px;*/
+    height: 864px;
+    background: url(../images/炫酷/role_guiwang.jpg) -330px 0;
+}
+
+#cool #coolPic .fenxiang{
+    width: 100%;
+    /*width: 1263px;*/
+    height: 864px;
+    background: url(../images/炫酷/role_fenxiang.jpg) -330px 0;
+}
+
+#cool #coolPic .hehuan{
+    width: 100%;
+    /*width: 1263px;*/
+    height: 864px;
+    background: url(../images/炫酷/role_hehuan.jpg) -330px 0;
+}
+
+#cool #coolPic .qingyun{
+    width: 100%;
+    /*width: 1263px;*/
+    height: 864px;
+    background: url(../images/炫酷/role_qingyun.jpg) -330px 0;
+}
+
+#cool #coolPic .guidao{
+    width: 100%;
+    /*width: 1263px;*/
+    height: 864px;
+    background: url(../images/炫酷/role_guidao.jpg) -330px 0;
+}
+
+#cool #coolPic .tianyin{
+    width: 100%;
+    /*width: 1263px;*/
+    height: 864px;
+    background: url(../images/炫酷/role_tianyin.jpg) -330px 0;
+}
+
+/*神族图片*/
+#cool #coolPic .jiuli{
+    width: 100%;
+    /*width: 1263px;*/
+    height: 864px;
+    background: url(../images/炫酷/role_jiuli.jpg) -330px 0;
+}
+
+#cool #coolPic .chenhuang{
+    width: 100%;
+    /*width: 1263px;*/
+    height: 864px;
+    background: url(../images/炫酷/role_chenhuang.jpg) -330px 0;
+}
+
+#cool #coolPic .lieshan{
+    width: 100%;
+    /*width: 1263px;*/
+    height: 864px;
+    background: url(../images/炫酷/role_lieshan.jpg) -330px 0;
+}
+
+#cool #coolPic .taihao{
+    width: 100%;
+    /*width: 1263px;*/
+    height: 864px;
+    background: url(../images/炫酷/role_taihao.jpg) -330px 0;
+}
+
+#cool #coolPic .huaiguang{
+    width: 100%;
+    /*width: 1263px;*/
+    height: 864px;
+    background: url(../images/炫酷/role_huaiguang.jpg) -330px 0;
+}
+
+#cool #coolPic .tianhua{
+    width: 100%;
+    /*width: 1263px;*/
+    height: 864px;
+    background: url(../images/炫酷/role_tianhua.jpg) -330px 0;
+}
+
+/*天脉图片*/
+#cool #coolPic .guiyun{
+    width: 100%;
+    /*width: 1263px;*/
+    height: 864px;
+    background: url(../images/炫酷/role_guiyun.jpg) -330px 0;
+}
+
+#cool #coolPic embed{
+    width: 1920px;
+    height: 865px;
+    Wmode: Transparent;
+    position: absolute;
+    top: 0px;
+    left: -330px;
+
+}
+
+#cool #coolPic .qingluo{
+    width: 100%;
+    /*width: 1263px;*/
+    height: 864px;
+    background: url(../images/炫酷/role_qingluo.jpg) -330px 0;
+}
+
+#cool #coolPic .yingzhao{
+    width: 100%;
+    /*width: 1263px;*/
+    height: 864px;
+    background: url(../images/炫酷/role_yingzhao.jpg) -330px 0;
+}
+
+#cool #coolPic .pojun{
+    width: 100%;
+    /*width: 1263px;*/
+    height: 864px;
+    background: url(../images/炫酷/role_pojun.jpg) -330px 0;
+}
+
+#cool #coolPic .qianji{
+    width: 100%;
+    /*width: 1263px;*/
+    height: 864px;
+    background: url(../images/炫酷/role_qianji.jpg) -330px 0;
+}
+
+#cool span{
+    width: 180px;
+    height: 50px;
+    display: block;
+    background: url(../images/炫酷/job_tit.png);
+    position: absolute;
+    top: 20px;
+    left: 550px;
+}
+
+#cool #coolPic .discription{
+    width: 382px;
+    height: 230px;
+    position: absolute;
+    top: 200px;
+    left: 840px;
+    font: 400 18px microsoft yahei;
+    color: #545454;
+    margin-top: 20px;
+    /*z-index: 1;*/
+
+}
+
+/*#cool #coolPic .fenxiang .discription{*/
+    /*z-index: 6;*/
+/*}*/
+
+#cool #coolPic .discription .last{
+    margin-top: 10px;
+}
+
+#cool #coolPic .discription h2{
+
+    font: 400 23px/38px microsoft yahei;
+    /*color: #545454;*/
+}
+
+#cool #coolPic .discription a{
+    width: 115px;
+    height: 22px;
+    display: block;
+    border-radius: 11px;
+    background-color: #948649;
+    color: #fff;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 30px;
+    position: absolute;
+    z-index: 4;
+}
+
+#cool #coolPic .discription a:hover{
+    background-color: rgba(167,157,111,0);
+    border: 1px solid #948649;
+    color: #948649;
+}
+
+/*炫酷大图结束*/
+
+/*附加小图部分开始*/
+#smallPic{
+    /*width: 1263px;*/
+    width: 100%;
+    height: 140px;
+    background: url(../images/bg2.png) bottom;
+    position: relative;
+    border-top: 5px solid #BDDABE;
+    /*padding-top: 10px;*/
+    position: relative;
+
+}
+
+#smallPic .list{
+    width: 1240px;
+    height: 135px;
+    margin-left: 8px;
+    padding-top: 15px;
+    position: absolute;
+    left: 50%;
+    margin-left: -620px;
+    overflow: hidden;
+    /*border: 1px solid #000;*/
+
+}
+
+#smallPic .list ul{
+    margin-top: -5px;
+    position: relative;
+    width: 20000px;
+}
+
+#smallPic ul li{
+    margin-top: 7px;
+    border: 1px solid #E0F3EF;
+    width: 98px;
+    height: 97px;
+}
+/*附加小图部分结束*/

@@ -1,0 +1,111 @@
+/*设置定css的编码*/
+@charset "UTF-8";
+
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*去除input的框  ctrl + / */
+fieldset, img, input, button {
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+li{
+    list-style: none;
+}
+
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: "微软雅黑",Arial, Helvetica, sans-serif;
+}
+
+select, input, textarea {
+    font-size: 12px;
+    margin: 0;
+}
+
+/*禁止缩放*/
+textarea {
+    resize: none;
+}
+
+
+/*让图片基线对齐*/
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+body {
+    font-family: "微软雅黑",Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #666;
+    background: #fff;/*白色*/
+}
+
+
+/*清除浮动*/
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* css骇客 */
+.clearfix {
+    *zoom: 1; /*IE/7/6*/
+}
+
+a {
+    color: #464646;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F93B9B;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 100%;
+    font-family: "微软雅黑", "宋体", Arial, Helvetica, sans-serif;
+}
+
+/*废物利用*/
+s, i, em {
+    font-style: normal;
+    text-decoration: none;
+}
+
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.w {
+    width: 1000px;
+    margin: 0 auto;
+
+}

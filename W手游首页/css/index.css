@@ -1,0 +1,554 @@
+@charset "UTF-8";
+
+/*css初始化 start*/
+
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+    margin: 0;
+    padding: 0;
+}
+
+/*去除input的框  ctrl + / */
+fieldset, img, input, button {
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: "SimSun", "宋体"; /*新宋体*/
+}
+
+select, input, textarea {
+    font-size: 12px;
+    margin: 0;
+}
+
+/*禁止缩放*/
+textarea {
+    resize: none;
+}
+s, i, em {
+    font-style: normal;
+    text-decoration: none;
+}
+/*让图片基线对齐*/
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+body {
+    font: 12px/150% Arial, Verdana, "\5b8b\4f53"; /*宋体 unicode*/
+    color: #666;
+    background: #fff; /*白色*/
+}
+
+/*清除浮动*/
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* css骇客 */
+.clearfix {
+    *zoom: 1; /*IE/7/6*/
+}
+
+a{
+    list-style: none;
+    text-decoration: none;
+    color: #527977;
+}
+/*清除浮动*/
+.clearfix:before , .clearfix:after{
+    content: "";
+    display: table;
+}
+.clearfix:after{
+    clear: both;
+}
+.clearfix{
+    *zoom: 1;
+}
+
+/*!/顶部导航*/
+body {
+    width: 1366px;
+    padding: 0;
+    margin: 0;
+    /*max-width: 100%;*/
+}
+
+.titl {
+    height: 55px;
+    line-height: 55px;
+    padding-left: 200px;
+    position: relative;
+}
+
+.titl .ul {
+    list-style: none;
+    margin: 0px;
+}
+
+.titl .ul li {
+    float: left;
+}
+.titl .ul li a{
+    font-size: 18px;
+    font-weight: 700;
+}
+.titl .ul li a:hover {
+    color: lightcoral;
+}
+
+.titl .ul .lnav {
+    padding: 0 23px;
+    font-family: 宋体;
+    font-weight: 400;
+}
+
+.titl .ul .join {
+    height: 20px;
+    line-height: 55px;
+    width: 1px;
+    background-color: #C2D0CF;
+    margin-top: 17px;
+}
+
+.titl .left {
+    width: 43px;
+    height: 43px;
+    background: url("../img/icon_logo.png") no-repeat;
+    position: absolute;
+    left: 143px;
+    top: 5px;
+}
+
+.titl .right {
+    margin-top: 10px;
+    width: 143px;
+    height: 35px;
+    position: absolute;
+    right: 152px;
+    /*overflow: hidden;*/
+    z-index: 2;
+}
+
+.titl .jj {
+    line-height: 17px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #527977;
+    margin: 0;
+    margin-top: 2px;
+    padding-left: 5px;
+    vertical-align: top;
+    float: left;
+
+}
+
+.titl .btn {
+    background-color: white;
+    line-height: 17px;
+    display: none;
+}
+
+.titl .btn .ewma {
+    width: 140px;
+    margin-top: 5px;
+}
+
+.titl .btn p {
+    margin: 0;
+    margin: 0;
+    padding-left: 15px;
+    font-size: 14px;
+    color: #527977;
+}
+
+.titl .btn .zxsy {
+    color: lightcoral;
+    margin-top: -15px;
+}
+
+.titl .r-conten {
+    width: 35px;
+    height: 35px;
+    float: left;
+    background: url("../img/wx_head.png") no-repeat;
+}
+
+
+/*内容1*/
+.content {
+    height: 905px;
+    width: 1366px;
+    background: url("../img/bg_cover%20(1).jpg") no-repeat -280px 0;
+    position: relative;
+}
+.content .ctit{
+    width: 118px;
+    height: 117px;
+    position: absolute;
+    left: 621px;
+    top: 55px;
+    background: url("../img/logo.png") no-repeat;
+    cursor: pointer;
+}
+
+.content .ccent{
+    width: 460px;
+    height: 257px;
+    background: url("../img/slogan.png" )no-repeat;
+    position: absolute;
+    left: 461px;
+    top: 218px;
+}
+.content .fubiao{
+    width: 734px;
+    height: 40px;
+    background: url("../img/fubiao2.png") no-repeat;
+    position: absolute;
+    left: 337px;
+    top: 500px;
+}
+.content .eweim{
+    width: 258px;
+    height: 235px;
+    background: #2ac2a7;
+    padding-left: 9px;
+    position: absolute;
+    left: 434px;
+    top: 564px;
+}
+.content .eweim .weimg{
+    width: 222px;
+    height: 222px;
+    background: #fff;
+    margin-top: 7px;
+    margin-right: 10px;
+    float: right;
+}
+.content .saoys{
+    width: 20px;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 40px;
+    float: left;
+    cursor: pointer;
+}
+.content .apple{
+    display: block;
+    position: absolute;
+    left: 709px;
+    top: 648px;
+    cursor: pointer;
+}
+.content .android{
+    display: block;
+    position: absolute;
+    left: 709px;
+    top: 727px;
+    cursor: pointer;
+}
+.content .gwang {
+    display: block;
+    position: absolute;
+    left: 434px;
+    top: 825px;
+    cursor: pointer;
+}
+.content .libao {
+    display: block;
+    position: absolute;
+    left: 709px;
+    top: 825px;
+    cursor: pointer;
+}
+
+/*轮播即将开始*/
+.lunbtit{
+    height: 75px;
+    padding-top: 48px ;
+}
+.lunbtit .tit_ts{
+    display: block;
+margin: 0 auto;
+}
+#lunbo{
+    position: relative;
+    height: 530px;
+    overflow: hidden;
+}
+#lunbo .ul{
+    display: block;
+    position: absolute;
+    width: 8500px;
+    height: 530px;
+    background-color: #2ac2a7;
+}
+#lunbo .lunli{
+    display: block;
+    width: 1336px;
+    float: left;
+
+}
+#lunbo .arrow{
+    position: absolute;
+    left: 125px;
+    top: 230px;
+    width: 1105px;
+    opacity: 0;
+}
+#lunbo #leftarrow{
+    float: left;
+}
+#lunbo  #rightarrow{
+    float: right;
+}
+.boxes{
+    height: 18px;
+    position: absolute;
+    bottom: 5px;
+    padding-left:  615px;
+}
+.boxes .cube{
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    background: url("../img/dot.png") no-repeat;
+    float: left;
+    margin-right: 10px;
+}
+.boxes .c{
+    background: url("../img/doth.png") no-repeat;
+}
+
+/*Tab切换start*/
+
+#tab{
+    margin-top: 10px;
+    background: url("../img/bg_bottom.jpg") 0 20px no-repeat;
+    position: relative;
+    height: 614px;
+}
+
+#tab .t-l{
+    width: 915px;
+    width: 915px;
+    position: absolute;
+}
+
+#tab .t-l .hh{
+    display: inline-block;
+    position: absolute;
+    left: -130px;
+}
+#tab .t-l .qy{
+    display: inline-block;
+    position: absolute;
+    left: -130px;
+}
+#tab .tab-li{
+    position: absolute;
+    display: none;
+}
+#tab  #gg{
+    display: block;
+}
+
+#tab .cube{
+    width: 69px;
+    height: 79px;
+    line-height: 79px;
+    text-align: center;
+    color: #2AC2A7;
+    font-family: "微软雅黑", Arial, Helvetica, sans-serif;
+}
+#tab .cube1{
+    background-image: url("../img/role_tab1.png");
+    color: white;
+    position: absolute;
+    left: 1113px;
+    top:93px;
+}
+#tab .cube2{
+    background-image: url("../img/role_tab.png");
+    position: absolute;
+    left: 1094px;
+    top: 171px;
+}
+#tab .cube3{
+    background-image: url("../img/role_tab.png")  ;
+    position: absolute;
+    left: 1140px;
+    top:232px;
+}
+#tab .cube4{
+    background-image: url("../img/role_tab.png");
+    position: absolute;
+    left: 1102px;
+    top:298px;
+}
+
+
+
+#attr{
+    position: absolute;
+    left: 547px;
+    top: 70px;
+    width: 510px;
+    height: 484px;
+    overflow: hidden;
+}
+#attr .attr-{
+    width: 510px;
+    height: 484px;
+    position:absolute;
+    /*left: 565px;*/
+    /*top:85px;*/
+    display: none;
+}
+#attr .att-{
+    display: block;
+}
+#attr .attr-l{
+    width: 252px;
+    font-family: "Microsoft JhengHei";
+    position: absolute;
+}
+#attr .attr-l p{
+    color: #2ac2a7;
+    font-size: 60px;
+    display: block;
+    margin-top: 150px;
+    margin-bottom: 25px;
+}
+#attr .attr-l2{
+    padding-top: 10px;
+    width: 261px;
+    height: 118px;
+    border:  solid #BBDFDC;
+    border-width: 1px 0px;
+}
+#attr .attr-l2 em{
+    font-size: 14px;
+    height: 17px;
+    display: block;
+}
+#attr .type{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("../img/iseasy.png");
+}
+#attr .attr-r{
+    display: inline-block;
+    float: right;
+}
+/*Tab切换end*/
+/*最后*/
+
+.bottm {
+    height: 95px;
+}
+
+.bottm .right {
+    height: 80px;
+    padding-top: 15px;
+    float: right;
+    margin-right: 320px;
+}
+
+.bottm .right li {
+    float: left;
+    margin-right: 25px;
+}
+.bottm .btm-left{
+    width: 122px;
+    height: 47px;
+    margin-left: 148px;
+    margin-top: 31px;
+    float: left;
+    background:url("../img/bg.gif") 0px 0px no-repeat;
+}
+.line{
+    float: left;
+    margin-left: 65px;
+    margin-top: 31px;
+    height: 47px;
+    width: 4px;
+    background-color: #666666;
+}
+.btm-cent{
+    width: 113px;
+    height: 44px;
+    float: left;
+    margin-left: 55px;
+    margin-top: 31px;
+    border: 1px solid #666666;
+}
+.btm-cent .icon{
+    display: inline-block;
+    width: 30px;
+    height: 38px;
+    margin-top: 3px;
+    margin-left: 5px;
+    background: url("../img/bg.gif") -85px -214px no-repeat;
+}
+.ico-conten{
+    width: 65px;
+    height: 45px;
+    float: right;
+    padding-top: 3px;
+    padding-left: 6px;
+}
+
+.bg_audio {
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    right: 0;
+    top: -100px;
+}
+
+.sound_control {
+    width: 40px;
+    height: 36px;
+    margin-left: 500px;
+    position: fixed;
+    top: 10px;
+    left: 60%;
+    z-index: 10;
+    background: url(../img/sound_off.png) center center no-repeat;
+    cursor: pointer;
+}
+
+.sound_control_detail {
+    right: 260px;
+}
+
+/*.sound_xq {*/
+/*background: url(images/sound_offp.png) center center no-repeat;*/
+/*}*/
+
+.sound_control.on {
+    background: url(../img/sound_on.png) center center no-repeat;
+}

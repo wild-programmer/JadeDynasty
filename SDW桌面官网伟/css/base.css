@@ -1,0 +1,189 @@
+html,body,form,ol,ul,li,div,p,dl,dt,dd,h1,h2,h3,h4,h5,h6,table,th,td,font,em,ins,span,a{
+    margin:0;
+    padding:0;
+}
+body{
+    font: 12px microsoft yahei;
+}
+ul{
+    list-style: none;
+}
+input{
+    border: none;
+    outline-style: none;
+}
+a{
+    text-decoration: none;
+    color: #444444;
+    font-size: 12px;
+}
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+.h{
+    width: 1000px;
+    margin: 0 auto;
+}
+.clearfix:after{
+    content: "";
+    heigth: 0;
+    line-height: 0;
+    display: block;
+    clear: both;
+    overflow: hidden;
+}
+.clearfix{
+    *zoom: 1;
+}
+/*废物利用*/
+s, i, em {
+    font-style: normal;
+    text-decoration: none;
+}
+
+/*头部开始*/
+
+
+#header {
+    border-top: 1px solid #E0E0E0;
+    border-bottom: 1px solid #E0E0E0;
+    background-color: #FEFEFE;
+    height: 37px;
+    position: relative;
+
+}
+
+#header #mp3{
+    position: absolute;
+    top: 3px;
+    left: 661px;
+    opacity: 0.04;
+}
+
+#header .h {
+
+}
+
+#header .wanmei {
+    width: 80px;
+    height: 37px;
+    background: url(../images/wanmei_top.gif) 0 -180px;
+    float: left;
+
+}
+
+#header .wanmei a {
+    width: 80px;
+    height: 37px;
+    display: inline-block;
+    text-indent: -2000px;
+}
+
+#header .wanmeigc_small {
+    width: 500px;
+    height: 37px;
+    background: url(../images/wanmei_gg_small_20161013.jpg);
+    float: left;
+}
+#header .wanmeigc_small:hover img{
+    display: block;
+}
+
+#header .wanmeigc_small a {
+    width: 500px;
+    height: 37px;
+    display: inline-block;
+    text-indent: -2000px;
+}
+#header .wanmeigc_small img{
+    position: relative;
+    z-index: 100;
+    display: none;
+    cursor: pointer;
+    top: -37px;
+}
+
+#header .nav_list {
+    float: right;
+    position: relative;
+    z-index: 101;
+    left: 10px;
+}
+
+#header .nav_list ul {
+    float: left;
+}
+
+#header .nav_list li {
+    float: left;
+    /*padding-right: 5px;*/
+    padding: 0 3px;
+    margin-top: 12px;
+}
+
+#header .nav_list .line {
+    color: #C5AEB9;
+}
+
+#header .nav_list .game {
+    width: 87px;
+    height: 20px;
+    background: url(../images/wanmei_top.gif) 0 0;
+    line-height: 18px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 8px;
+    padding-left: 8px;
+}
+#header .game img{
+    width: 700px;
+    height: 250px;
+    position: absolute;
+    right: 0px;
+    top: 40px;
+    display: none;
+}
+/*头部结束*/
+
+/*底部开始*/
+#footer{
+    background-color: #2A2F44;
+    padding: 20px 0;
+}
+
+#footer .beian{
+    width: 65px;
+    height: 46px;
+    border: 1px solid #303754;
+    float: left;
+    font: 12px/20px microsoft yahei;
+    color: #93AFD2;
+    margin-left: 300px;
+    margin-top: 12px;
+    padding-left: 50px;
+    position: relative;
+}
+
+#footer .beian s{
+    width: 33px;
+    height: 40px;
+    display: block;
+    background: url(../images/bg.gif) repeat -84px -213px;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+}
+
+#footer .copyRight{
+    /*float: left;*/
+    margin-left: 500px;
+    font: 12px/20px microsoft yahei;
+    color: #93AFD2;
+}
+
+#footer .copyRight a{
+    font: 12px/20px microsoft yahei;
+    color: #93AFD2;
+}
+/*底部结束*/
